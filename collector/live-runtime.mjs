@@ -28,7 +28,11 @@ export async function runLiveScan(previous,{sources=null,concurrency=12,mode='ve
   const successful=results.filter(r=>r.ok);
   const productive=successful.filter(r=>(r.events||[]).length>0);
   const attemptedAt=new Date().toISOString();
-  const accepted=freshEvents.length>=8&&productive.length>=4;
+  const previousProductive=Number(previous?.stats?.productiveSources??previous?.stats?.successfulSources??0);
+  const minProductive=previousProductive>0
+    ? Math.max(4,Math.min(all.length,Math.ceil(previousProductive*0.60)))
+    : 4;
+  const accepted=freshEvents.length>=8&&productive.length>=minProductive;
 
   const baseStats=previous?.stats||{};
   const scanStats={
@@ -50,9 +54,11 @@ export async function runLiveScan(previous,{sources=null,concurrency=12,mode='ve
     protectedSources:baseStats.protectedSources??45,
     durationMs:Date.now()-started,
     collectorMode:mode,
-    collectorVersion:'18.4.0-live-runtime',
+    collectorVersion:'18.4.2-live-runtime',
     collectorAttemptedAt:attemptedAt,
     scanAccepted:accepted,
+    minProductiveRequired:minProductive,
+    previousProductiveSources:previousProductive,
   };
 
   if(accepted){
