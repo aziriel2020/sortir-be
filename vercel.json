@@ -1,0 +1,57 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "node scripts/build-vercel.mjs",
+  "outputDirectory": "dist",
+  "regions": [
+    "cdg1"
+  ],
+  "functions": {
+    "api/*.js": {
+      "maxDuration": 10
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/live",
+      "destination": "/events-snapshot.json"
+    },
+    {
+      "source": "/api/events",
+      "destination": "/events-snapshot.json"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/events-snapshot.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, s-maxage=300, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    }
+  ]
+}

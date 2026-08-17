@@ -1,0 +1,19 @@
+SORTIR.BE — GITHUB → VERCEL
+
+GITHUB
+1. github.com → New repository
+2. Name: sortir-be
+3. Create repository
+4. Add file → Upload files
+5. Drag ALL files/folders from this extracted folder
+6. Commit changes
+
+VERCEL
+1. vercel.com → New Project
+2. Import Git Repository
+3. Choose sortir-be
+4. Root Directory: ./
+5. Framework Preset: Other (or let vercel.json handle it)
+6. Deploy
+
+DONE.
