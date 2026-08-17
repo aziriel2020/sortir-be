@@ -90,3 +90,165 @@
   }
 }
 
+
+/* === SORTIR.BE V18.2 MOBILE SHELL + REAL MAP === */
+.sortir-real-map{
+  z-index:0;
+  opacity:0;
+  width:100%;
+  height:100%;
+  position:absolute;
+  inset:0;
+  transition:opacity .28s ease;
+}
+.map-panel.real-map-ready .sortir-real-map{opacity:1}
+.map-panel.real-map-ready>.map-tiles,
+.map-panel.real-map-ready>.map-vignette,
+.map-panel.real-map-ready>.map-credit,
+.map-panel.real-map-ready>button.map-marker{display:none!important}
+.map-panel.real-map-ready{background:#e8eee8}
+.map-panel.real-map-ready .map-topbar,
+.map-panel.real-map-ready .map-legend{z-index:6}
+.map-panel .maplibregl-map,
+.map-panel .maplibregl-canvas-container,
+.map-panel .maplibregl-canvas{width:100%;height:100%}
+.map-panel .maplibregl-ctrl-bottom-right{right:10px;bottom:34px}
+.map-panel .maplibregl-ctrl-attrib{font-size:9px!important;background:#fffffff0!important;color:#506059!important}
+.map-panel .maplibregl-ctrl-attrib a{color:#315d50!important}
+.map-panel .maplibregl-ctrl-group{border-radius:12px!important;overflow:hidden;box-shadow:0 8px 25px #18322a24!important}
+.sortir-real-marker{
+  --real-marker:#3da7b6;
+  color:#fff;
+  background:var(--real-marker);
+  border:2px solid #fff;
+  border-radius:50% 50% 50% 14%;
+  width:38px;
+  height:38px;
+  padding:0;
+  display:grid;
+  place-items:center;
+  cursor:pointer;
+  transform:rotate(-45deg);
+  box-shadow:0 5px 18px #173f3440,0 0 0 4px #ffffffa8;
+  transition:transform .16s ease,box-shadow .16s ease;
+}
+.sortir-real-marker span{font:800 11px/1 var(--font-space),sans-serif;transform:rotate(45deg)}
+.sortir-real-marker:hover,
+.sortir-real-marker:focus-visible{transform:rotate(-45deg) scale(1.13);box-shadow:0 8px 25px #173f3452,0 0 0 6px #ffffffcf}
+.sortir-user-marker{
+  width:18px;
+  height:18px;
+  border:4px solid #fff;
+  border-radius:50%;
+  background:#174d3c;
+  box-shadow:0 0 0 6px #3da7b64d,0 5px 18px #173f3452;
+}
+.map-topbar button.is-locating svg{animation:sortir-locate-spin .8s linear infinite}
+@keyframes sortir-locate-spin{to{transform:rotate(360deg)}}
+
+@media (width<=860px){
+  /* The mobile hero must grow to include the entire map. The light-theme
+     desktop height was clipping the map underneath the agenda section. */
+  .hero{
+    height:auto!important;
+    min-height:0!important;
+    overflow:visible!important;
+    display:flex!important;
+    flex-direction:column!important;
+  }
+  .map-panel{
+    flex:none!important;
+    width:auto!important;
+    height:clamp(440px,64svh,580px)!important;
+    min-height:440px!important;
+    max-height:none!important;
+    margin:0 14px 24px!important;
+    border-radius:22px!important;
+    overflow:hidden!important;
+  }
+  .map-topbar{top:14px!important;left:14px!important;right:14px!important}
+  .map-legend{left:14px!important;bottom:14px!important;max-width:calc(100% - 100px);overflow-x:auto}
+  .map-panel .maplibregl-ctrl-bottom-right{right:8px;bottom:38px}
+  .sortir-real-marker{width:44px;height:44px;min-width:44px;min-height:44px}
+
+  /* Bottom navigation = actual last fixed element of the app viewport. */
+  body{padding-bottom:calc(70px + env(safe-area-inset-bottom))!important}
+  .mobile-dock{
+    z-index:80!important;
+    position:fixed!important;
+    left:0!important;
+    right:0!important;
+    bottom:0!important;
+    width:100%!important;
+    margin:0!important;
+    border-radius:18px 18px 0 0!important;
+    min-height:calc(68px + env(safe-area-inset-bottom))!important;
+    padding:5px 8px max(5px,env(safe-area-inset-bottom))!important;
+    box-shadow:0 -12px 35px #12282124,inset 0 1px #fff!important;
+  }
+
+  /* A transformed scrolling drawer turns fixed descendants into the wrong
+     containing block on mobile. Remove that transform and pin the event
+     action bar to the real viewport bottom. */
+  .event-drawer{
+    animation:none!important;
+    transform:none!important;
+  }
+  .event-drawer .drawer-footer{
+    position:fixed!important;
+    left:0!important;
+    right:0!important;
+    bottom:0!important;
+    width:100%!important;
+    min-height:calc(82px + env(safe-area-inset-bottom))!important;
+    padding:9px 11px max(9px,env(safe-area-inset-bottom))!important;
+    z-index:130!important;
+  }
+  .event-drawer .drawer-body{
+    padding-bottom:calc(132px + env(safe-area-inset-bottom))!important;
+  }
+}
+
+@media (width<=480px){
+  .map-panel{
+    height:440px!important;
+    min-height:440px!important;
+    margin-inline:10px!important;
+  }
+  .map-topbar{left:10px!important;right:10px!important;top:10px!important}
+  .map-topbar>span{min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .map-legend{left:10px!important;bottom:10px!important;gap:9px!important;padding:8px 9px!important}
+  .map-panel .maplibregl-ctrl-bottom-right{right:6px;bottom:42px}
+}
+
+@media (prefers-reduced-motion:reduce){
+  .sortir-real-map,.sortir-real-marker{transition:none!important}
+  .map-topbar button.is-locating svg{animation:none!important}
+}
+/* === SORTIR.BE V18.2 MOBILE SHELL + REAL MAP END === */
+
+/* === SORTIR.BE V18.2.1 MOBILE GEOMETRY FINALIZATION === */
+@media (width<=860px){
+  .hero{
+    overflow-x:clip!important;
+    overflow-y:visible!important;
+  }
+  .map-panel{
+    animation:none!important;
+    transform:none!important;
+  }
+  .agenda-section{overflow-x:clip!important}
+}
+/* === SORTIR.BE V18.2.1 MOBILE GEOMETRY FINALIZATION END === */
+
+/* === SORTIR.BE V18.3 LIVE DATA TRUTH + DESKTOP COMPOSITION === */
+.sortir-stale-data{border-color:#c28b3940!important;background:linear-gradient(110deg,#fff8e9,#f7f4ef)!important}
+.sortir-stale-data .live-radar-state strong{color:#9b5c19!important}
+html[data-sortir-data-fresh="false"] .site-header .freshness{color:#9b5c19!important}
+@media (width>=1181px){
+  .agenda-section{padding-top:clamp(64px,5.2vw,92px)!important}
+  .agenda-heading{align-items:flex-end!important;gap:40px!important;margin-bottom:34px!important}
+  .agenda-heading>p{margin-bottom:8px!important;max-width:310px;text-align:right}
+  .live-radar-bar{margin-bottom:26px!important}
+}
+/* === SORTIR.BE V18.3 LIVE DATA TRUTH + DESKTOP COMPOSITION END === */

@@ -1,0 +1,28 @@
+{
+  "generatedAt": "2026-08-15T18:34:18.058Z",
+  "collectorAttemptedAt": null,
+  "scanAccepted": false,
+  "mode": "recovered-snapshot",
+  "stats": {
+    "registeredSources": 623,
+    "automaticSources": 100,
+    "reachableSources": 100,
+    "productiveSources": 95,
+    "emptySources": 5,
+    "errorSources": 0,
+    "rateLimitedSources": 0,
+    "successfulSources": 95,
+    "rawEvents": 2771,
+    "deduplicatedEvents": 2839,
+    "duplicateEventsRemoved": 1056,
+    "retainedPrevious": true,
+    "recoveredPreviousEvents": 1124,
+    "coverageRegression": true,
+    "publicSources": 478,
+    "protectedSources": 43,
+    "durationMs": 0,
+    "collectorVersion": "18.3.0",
+    "scanAccepted": false
+  },
+  "note": "Initial recovered snapshot. GitHub Actions replaces this after the first successful live scan."
+}

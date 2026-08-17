@@ -1,0 +1,5519 @@
+[
+  {
+    "id": "visit-brussels",
+    "name": "visit.brussels",
+    "kind": "official",
+    "url": "https://www.visit.brussels/en/visitors/agenda",
+    "format": "visitbrussels",
+    "access": "direct",
+    "city": "Bruxelles",
+    "maxPageBytes": 32000000,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "imageEnrichMax": 12
+  },
+  {
+    "id": "brussels-city",
+    "name": "Ville de Bruxelles",
+    "kind": "official",
+    "url": "https://www.brussels.be/agenda",
+    "format": "crawl",
+    "access": "direct",
+    "city": "Bruxelles",
+    "eventLinkPattern": "^/[a-z0-9][a-z0-9-]+$",
+    "requiredLinkAttribute": "hreflang=[\\\"']en[\\\"']",
+    "listingPageParam": "page",
+    "listingPages": 10,
+    "liveListingPages": 2,
+    "liveMaxLinks": 20,
+    "maxLinks": 100,
+    "venue": "Ville de Bruxelles"
+  },
+  {
+    "id": "brussels-environment",
+    "name": "Bruxelles Environnement",
+    "kind": "official",
+    "url": "https://environnement.brussels/agenda",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "auderghem",
+    "name": "Auderghem Agenda",
+    "kind": "official",
+    "url": "https://www.auderghem.be/agenda",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "anderlecht",
+    "name": "Anderlecht Agenda",
+    "kind": "official",
+    "url": "https://www.anderlecht.be/fr/agenda",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "berchem",
+    "name": "Berchem-Sainte-Agathe Agenda",
+    "kind": "official",
+    "url": "https://berchem.brussels/fr/agenda",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "etterbeek",
+    "name": "Etterbeek Agenda",
+    "kind": "official",
+    "url": "https://etterbeek.brussels/fr/agenda",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "evere",
+    "name": "Evere Agenda",
+    "kind": "official",
+    "url": "https://evere.brussels/fr/agenda",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "forest",
+    "name": "Forest Agenda",
+    "kind": "official",
+    "url": "https://forest.brussels/fr/agenda",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "ganshoren",
+    "name": "Ganshoren Agenda",
+    "kind": "official",
+    "url": "https://www.ganshoren.be/fr/agenda/",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "ixelles",
+    "name": "Ixelles Agenda",
+    "kind": "official",
+    "url": "https://www.ixelles.be/site/agenda.php",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "jette",
+    "name": "Jette Agenda",
+    "kind": "official",
+    "url": "https://www.jette.brussels/fr/agenda",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "koekelberg",
+    "name": "Koekelberg Agenda",
+    "kind": "official",
+    "url": "https://www.koekelberg.be/w/fr/agenda/",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "molenbeek",
+    "name": "Molenbeek Agenda",
+    "kind": "official",
+    "url": "https://www.molenbeek.irisnet.be/fr/agenda",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "saint-gilles",
+    "name": "Saint-Gilles Agenda",
+    "kind": "official",
+    "url": "https://stgilles.brussels/agenda/",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "saint-josse",
+    "name": "Saint-Josse Agenda",
+    "kind": "official",
+    "url": "https://sjtn.brussels/fr/agenda",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "schaerbeek",
+    "name": "Schaerbeek · Agenda 1030",
+    "kind": "official",
+    "url": "https://www.1030.be/fr/agenda",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "uccle",
+    "name": "Uccle Agenda",
+    "kind": "official",
+    "url": "https://www.uccle.be/fr/agenda",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "watermael",
+    "name": "Watermael-Boitsfort Agenda",
+    "kind": "official",
+    "url": "https://www.watermael-boitsfort.be/fr/agenda",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "woluwe-1200",
+    "name": "Woluwe-Saint-Lambert Agenda",
+    "kind": "official",
+    "url": "https://www.woluwe1200.be/fr/agenda",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "woluwe-1150",
+    "name": "Woluwe-Saint-Pierre Agenda",
+    "kind": "official",
+    "url": "https://www.woluwe1150.be/fr/agenda",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "agenda-brussels-api",
+    "name": "agenda.brussels API",
+    "kind": "official",
+    "url": "https://agenda.brussels/api/events",
+    "format": "api",
+    "access": "protected",
+    "city": "Bruxelles",
+    "authEnv": "BRUSSELS_AGENDA_TOKEN",
+    "optional": true
+  },
+  {
+    "id": "bozar",
+    "name": "Bozar",
+    "kind": "venue",
+    "url": "https://www.bozar.be/en/calendar",
+    "format": "crawl",
+    "access": "direct",
+    "city": "Bruxelles",
+    "eventLinkPattern": "^/en/calendar/[^/]+$",
+    "liveMaxLinks": 8,
+    "maxLinks": 24,
+    "venue": "Bozar",
+    "address": "Rue Ravenstein 23, 1000 Bruxelles"
+  },
+  {
+    "id": "ab",
+    "name": "Ancienne Belgique",
+    "kind": "venue",
+    "url": "https://www.abconcerts.be/en/agenda",
+    "format": "crawl",
+    "access": "direct",
+    "city": "Bruxelles",
+    "eventLinkPattern": "^/en/agenda/[^/]+/[a-z0-9]+$",
+    "liveMaxLinks": 10,
+    "maxLinks": 30,
+    "venue": "Ancienne Belgique",
+    "address": "Boulevard Anspach 110, 1000 Bruxelles"
+  },
+  {
+    "id": "botanique",
+    "name": "Botanique",
+    "kind": "venue",
+    "url": "https://botanique.be/en/programme",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "flagey",
+    "name": "Flagey",
+    "kind": "venue",
+    "url": "https://www.flagey.be/en/agenda",
+    "format": "crawl",
+    "access": "direct",
+    "city": "Bruxelles",
+    "eventLinkPattern": "^/en/agenda/.+-[a-z0-9]{4}$",
+    "liveMaxLinks": 14,
+    "maxLinks": 30,
+    "venue": "Flagey",
+    "address": "Place Sainte-Croix, 1050 Bruxelles"
+  },
+  {
+    "id": "monnaie",
+    "name": "La Monnaie",
+    "kind": "venue",
+    "url": "https://www.lamonnaiedemunt.be/en/program",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "fuse",
+    "name": "Fuse",
+    "kind": "venue",
+    "url": "https://www.fuseclub.brussels/events",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "c12",
+    "name": "C12",
+    "kind": "venue",
+    "url": "https://c12space.com/",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "wiels",
+    "name": "WIELS",
+    "kind": "venue",
+    "url": "https://www.wiels.org/en/agenda",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "recyclart",
+    "name": "Recyclart",
+    "kind": "venue",
+    "url": "https://recyclart.be/agenda",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "beursschouwburg",
+    "name": "Beursschouwburg",
+    "kind": "venue",
+    "url": "https://www.beursschouwburg.be/en/events/",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "kanal",
+    "name": "KANAL-Centre Pompidou",
+    "kind": "venue",
+    "url": "https://kanal.brussels/en/events",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "mima",
+    "name": "MIMA",
+    "kind": "venue",
+    "url": "https://www.mimamuseum.eu/",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "lavallee",
+    "name": "LaVallée",
+    "kind": "venue",
+    "url": "https://www.lavallee.brussels/agenda",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "tour-taxis",
+    "name": "Tour & Taxis",
+    "kind": "venue",
+    "url": "https://tour-taxis.com/events/",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "theatre-national",
+    "name": "Théâtre National",
+    "kind": "venue",
+    "url": "https://www.theatrenational.be/en/agenda",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "halles",
+    "name": "Les Halles de Schaerbeek",
+    "kind": "venue",
+    "url": "https://www.halles.be/en/agenda",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "pilar",
+    "name": "Pilar",
+    "kind": "venue",
+    "url": "https://www.pilar.brussels/events",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "tricoterie",
+    "name": "La Tricoterie",
+    "kind": "venue",
+    "url": "https://www.tricoterie.be/agenda/",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "vk",
+    "name": "VK Concerts",
+    "kind": "venue",
+    "url": "https://www.vkconcerts.be/en/agenda",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "cinematek",
+    "name": "CINEMATEK",
+    "kind": "culture",
+    "url": "https://cinematek.be/en/programme",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "cinema-galeries",
+    "name": "Cinema Galeries",
+    "kind": "culture",
+    "url": "https://galeries.be/en/agenda/",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "jazz-station",
+    "name": "Jazz Station",
+    "kind": "venue",
+    "url": "https://jazzstation.be/en/agenda/",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "wolubilis",
+    "name": "Wolubilis",
+    "kind": "venue",
+    "url": "https://www.wolubilis.be/agenda/",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "bruzz",
+    "name": "BRUZZ Agenda",
+    "kind": "culture",
+    "url": "https://www.bruzz.be/agenda",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "brussels-museums",
+    "name": "Brussels Museums",
+    "kind": "culture",
+    "url": "https://www.brusselsmuseums.be/en/agenda",
+    "format": "public",
+    "access": "public",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "kings-comedy",
+    "name": "Kings of Comedy Club",
+    "kind": "venue",
+    "url": "https://www.lekings.be/events/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Bruxelles"
+  },
+  {
+    "id": "madame-moustache",
+    "name": "Madame Moustache · concerts & soirées",
+    "kind": "venue",
+    "url": "https://www.madamemoustache.be/agenda",
+    "format": "crawl",
+    "access": "direct",
+    "city": "Bruxelles",
+    "eventLinkPattern": "^/agenda/[^/]+$",
+    "liveMaxLinks": 20,
+    "maxLinks": 50,
+    "venue": "Madame Moustache",
+    "address": "Quai au Bois à Brûler 5-7, 1000 Bruxelles"
+  },
+  {
+    "id": "flamingo-brussels",
+    "name": "Café Flamingo · événements",
+    "kind": "venue",
+    "url": "https://flamingobrussel.be/en/events/",
+    "format": "crawl",
+    "access": "direct",
+    "city": "Bruxelles",
+    "eventLinkPattern": "^/en/events/[^/]+/?$",
+    "liveMaxLinks": 15,
+    "maxLinks": 30,
+    "venue": "Café Flamingo",
+    "address": "Rue de Laeken 177, 1000 Bruxelles"
+  },
+  {
+    "id": "hetbos-antwerp",
+    "name": "Het Bos · club & concerts",
+    "kind": "venue",
+    "url": "https://hetbos.be/index.php/het-bos-club",
+    "format": "crawl",
+    "access": "direct",
+    "city": "Anvers",
+    "assumeBelgium": true,
+    "eventLinkPattern": "^/index\\.php/programma/evenement/20\\d{2}-[^/]+$",
+    "liveMaxLinks": 24,
+    "maxLinks": 70,
+    "venue": "Het Bos",
+    "address": "Ankerrui 5-7, 2000 Antwerpen"
+  },
+  {
+    "id": "music-village",
+    "name": "The Music Village · jazz live",
+    "kind": "venue",
+    "url": "https://www.themusicvillage.com/en",
+    "format": "crawl",
+    "access": "direct",
+    "city": "Bruxelles",
+    "eventLinkPattern": "^/en/concerts/20\\d{2}-\\d{2}-\\d{2}-\\d{2}-\\d{2}$",
+    "liveMaxLinks": 28,
+    "maxLinks": 90,
+    "venue": "The Music Village",
+    "address": "Rue des Pierres 50, 1000 Bruxelles",
+    "preferHeadingTitle": true
+  },
+  {
+    "id": "eventium-belgium-center",
+    "name": "Eventium · Belgique centre",
+    "kind": "ticketing",
+    "url": "https://www.eventium.be/api/events?lat=50.8503&lng=4.3517&radiusKm=130&size=240&maxResults=240&includeScraped=1&includeSetlists=0&preferDb=1&allowLiveFetch=1&enrichPrices=0",
+    "format": "api",
+    "access": "direct",
+    "assumeBelgium": true,
+    "maxPageBytes": 4000000
+  },
+  {
+    "id": "eventium-belgium-west",
+    "name": "Eventium · Belgique ouest",
+    "kind": "ticketing",
+    "url": "https://www.eventium.be/api/events?lat=51.0543&lng=3.7174&radiusKm=105&size=180&maxResults=180&includeScraped=1&includeSetlists=0&preferDb=1&allowLiveFetch=0&enrichPrices=0",
+    "format": "api",
+    "access": "direct",
+    "assumeBelgium": true,
+    "maxPageBytes": 3000000
+  },
+  {
+    "id": "eventium-belgium-east",
+    "name": "Eventium · Belgique est",
+    "kind": "ticketing",
+    "url": "https://www.eventium.be/api/events?lat=50.6326&lng=5.5797&radiusKm=115&size=180&maxResults=180&includeScraped=1&includeSetlists=0&preferDb=1&allowLiveFetch=0&enrichPrices=0",
+    "format": "api",
+    "access": "direct",
+    "assumeBelgium": true,
+    "maxPageBytes": 3000000
+  },
+  {
+    "id": "tasoiree-belgium",
+    "name": "TaSoiree.be · soirées & bars",
+    "kind": "community",
+    "url": "https://www.tasoiree.be/agenda",
+    "format": "tasoiree",
+    "access": "direct",
+    "assumeBelgium": true,
+    "listingPageTemplate": "https://www.tasoiree.be/agenda-page-{page}",
+    "listingPages": 8,
+    "liveListingPages": 3,
+    "maxPageBytes": 1500000
+  },
+  {
+    "id": "findparty-brussels",
+    "name": "FindParty · Bruxelles",
+    "kind": "community",
+    "url": "https://www.findparty.be/bruxelles?sort=date",
+    "format": "crawl",
+    "access": "direct",
+    "city": "Bruxelles",
+    "assumeBelgium": true,
+    "eventLinkPattern": "^/event/[^/]+$",
+    "liveMaxLinks": 20,
+    "maxLinks": 50,
+    "enrichImages": true,
+    "replaceGenericImages": true
+  },
+  {
+    "id": "reddit-public-events",
+    "name": "Reddit · événements publics Belgique",
+    "kind": "social",
+    "url": "https://www.reddit.com/r/brussels+belgium+antwerpen+gent+leuven+bruges+liege+namur+charleroi+hasselt/new.rss?limit=100",
+    "format": "reddit",
+    "access": "direct",
+    "assumeBelgium": true,
+    "maxPageBytes": 750000
+  },
+  {
+    "id": "discord-partner-events",
+    "name": "Discord · événements programmés autorisés",
+    "kind": "social",
+    "url": "https://discord.com/developers/docs/resources/guild-scheduled-event",
+    "format": "discord",
+    "access": "protected",
+    "assumeBelgium": true,
+    "optional": true,
+    "authEnv": "DISCORD_BOT_TOKEN",
+    "guildIdsEnv": "DISCORD_GUILD_IDS"
+  },
+  {
+    "id": "resident-advisor",
+    "name": "Resident Advisor",
+    "kind": "ticketing",
+    "url": "https://ra.co/events/be/brussels",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "eventbrite",
+    "name": "Eventbrite Brussels",
+    "kind": "ticketing",
+    "url": "https://www.eventbrite.be/d/belgium--brussels/events/",
+    "format": "jsonld",
+    "access": "direct"
+  },
+  {
+    "id": "eventbrite-social",
+    "name": "Eventbrite · Social Brussels",
+    "kind": "meeting",
+    "url": "https://www.eventbrite.be/d/belgium--brussels/social-events/",
+    "format": "jsonld",
+    "access": "direct"
+  },
+  {
+    "id": "eventbrite-nightlife",
+    "name": "Eventbrite · Nightlife Brussels",
+    "kind": "ticketing",
+    "url": "https://www.eventbrite.be/d/belgium--brussels/nightlife/",
+    "format": "jsonld",
+    "access": "direct"
+  },
+  {
+    "id": "eventbrite-belgium",
+    "name": "Eventbrite · toute la Belgique",
+    "kind": "ticketing",
+    "url": "https://www.eventbrite.be/d/belgium/events/",
+    "format": "jsonld",
+    "access": "direct",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "imageEnrichMax": 16
+  },
+  {
+    "id": "eventbrite-belgium-antwerp",
+    "name": "Eventbrite · Anvers",
+    "kind": "ticketing",
+    "url": "https://www.eventbrite.be/d/belgium--antwerpen/events/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Anvers",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "imageEnrichMax": 8
+  },
+  {
+    "id": "eventbrite-belgium-ghent",
+    "name": "Eventbrite · Gand",
+    "kind": "ticketing",
+    "url": "https://www.eventbrite.be/d/belgium--gent/events/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Gand",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "imageEnrichMax": 8
+  },
+  {
+    "id": "eventbrite-belgium-bruges",
+    "name": "Eventbrite · Bruges",
+    "kind": "ticketing",
+    "url": "https://www.eventbrite.be/d/belgium--brugge/events/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Bruges",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "imageEnrichMax": 8
+  },
+  {
+    "id": "eventbrite-belgium-leuven",
+    "name": "Eventbrite · Louvain",
+    "kind": "ticketing",
+    "url": "https://www.eventbrite.be/d/belgium--leuven/events/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Louvain",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "imageEnrichMax": 8
+  },
+  {
+    "id": "eventbrite-belgium-hasselt",
+    "name": "Eventbrite · Hasselt",
+    "kind": "ticketing",
+    "url": "https://www.eventbrite.be/d/belgium--hasselt/events/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Hasselt",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "imageEnrichMax": 8
+  },
+  {
+    "id": "eventbrite-belgium-mechelen",
+    "name": "Eventbrite · Malines",
+    "kind": "ticketing",
+    "url": "https://www.eventbrite.be/d/belgium--mechelen/events/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Malines",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "imageEnrichMax": 8
+  },
+  {
+    "id": "eventbrite-belgium-kortrijk",
+    "name": "Eventbrite · Courtrai",
+    "kind": "ticketing",
+    "url": "https://www.eventbrite.be/d/belgium--kortrijk/events/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Courtrai",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "imageEnrichMax": 8
+  },
+  {
+    "id": "eventbrite-belgium-ostend",
+    "name": "Eventbrite · Ostende",
+    "kind": "ticketing",
+    "url": "https://www.eventbrite.be/d/belgium--oostende/events/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Ostende",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "imageEnrichMax": 8
+  },
+  {
+    "id": "eventbrite-belgium-aalst",
+    "name": "Eventbrite · Alost",
+    "kind": "ticketing",
+    "url": "https://www.eventbrite.be/d/belgium--aalst/events/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Alost",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "imageEnrichMax": 8
+  },
+  {
+    "id": "eventbrite-belgium-sint-niklaas",
+    "name": "Eventbrite · Saint-Nicolas",
+    "kind": "ticketing",
+    "url": "https://www.eventbrite.be/d/belgium--sint-niklaas/events/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Saint-Nicolas",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "imageEnrichMax": 8
+  },
+  {
+    "id": "eventbrite-belgium-genk",
+    "name": "Eventbrite · Genk",
+    "kind": "ticketing",
+    "url": "https://www.eventbrite.be/d/belgium--genk/events/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Genk",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "imageEnrichMax": 8
+  },
+  {
+    "id": "eventbrite-belgium-turnhout",
+    "name": "Eventbrite · Turnhout",
+    "kind": "ticketing",
+    "url": "https://www.eventbrite.be/d/belgium--turnhout/events/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Turnhout",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "imageEnrichMax": 8
+  },
+  {
+    "id": "eventbrite-belgium-roeselare",
+    "name": "Eventbrite · Roulers",
+    "kind": "ticketing",
+    "url": "https://www.eventbrite.be/d/belgium--roeselare/events/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Roulers",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "imageEnrichMax": 8
+  },
+  {
+    "id": "eventbrite-belgium-liege",
+    "name": "Eventbrite · Liège",
+    "kind": "ticketing",
+    "url": "https://www.eventbrite.be/d/belgium--liège/events/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Liège",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "imageEnrichMax": 8
+  },
+  {
+    "id": "eventbrite-belgium-namur",
+    "name": "Eventbrite · Namur",
+    "kind": "ticketing",
+    "url": "https://www.eventbrite.be/d/belgium--namur/events/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Namur",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "imageEnrichMax": 8
+  },
+  {
+    "id": "eventbrite-belgium-charleroi",
+    "name": "Eventbrite · Charleroi",
+    "kind": "ticketing",
+    "url": "https://www.eventbrite.be/d/belgium--charleroi/events/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Charleroi",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "imageEnrichMax": 8
+  },
+  {
+    "id": "eventbrite-belgium-mons",
+    "name": "Eventbrite · Mons",
+    "kind": "ticketing",
+    "url": "https://www.eventbrite.be/d/belgium--mons/events/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Mons",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "imageEnrichMax": 8
+  },
+  {
+    "id": "eventbrite-belgium-tournai",
+    "name": "Eventbrite · Tournai",
+    "kind": "ticketing",
+    "url": "https://www.eventbrite.be/d/belgium--tournai/events/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Tournai",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "imageEnrichMax": 8
+  },
+  {
+    "id": "eventbrite-belgium-verviers",
+    "name": "Eventbrite · Verviers",
+    "kind": "ticketing",
+    "url": "https://www.eventbrite.be/d/belgium--verviers/events/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Verviers",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "imageEnrichMax": 8
+  },
+  {
+    "id": "eventbrite-belgium-wavre",
+    "name": "Eventbrite · Wavre",
+    "kind": "ticketing",
+    "url": "https://www.eventbrite.be/d/belgium--wavre/events/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Wavre",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "imageEnrichMax": 8
+  },
+  {
+    "id": "eventbrite-belgium-arlon",
+    "name": "Eventbrite · Arlon",
+    "kind": "ticketing",
+    "url": "https://www.eventbrite.be/d/belgium--arlon/events/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Arlon",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "imageEnrichMax": 8
+  },
+  {
+    "id": "eventbrite-belgium-nivelles",
+    "name": "Eventbrite · Nivelles",
+    "kind": "ticketing",
+    "url": "https://www.eventbrite.be/d/belgium--nivelles/events/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Nivelles",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "imageEnrichMax": 8
+  },
+  {
+    "id": "eventbrite-belgium-dinant",
+    "name": "Eventbrite · Dinant",
+    "kind": "ticketing",
+    "url": "https://www.eventbrite.be/d/belgium--dinant/events/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Dinant",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "imageEnrichMax": 8
+  },
+  {
+    "id": "eventbrite-belgium-eupen",
+    "name": "Eventbrite · Eupen",
+    "kind": "ticketing",
+    "url": "https://www.eventbrite.be/d/belgium--eupen/events/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Eupen",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "imageEnrichMax": 8
+  },
+  {
+    "id": "shotgun",
+    "name": "Shotgun Brussels",
+    "kind": "ticketing",
+    "url": "https://shotgun.live/cities/brussels",
+    "format": "crawl",
+    "access": "direct",
+    "eventLinkPattern": "^/en/events/[^/]+$",
+    "liveMaxLinks": 12,
+    "maxLinks": 30
+  },
+  {
+    "id": "fever",
+    "name": "Fever Brussels",
+    "kind": "ticketing",
+    "url": "https://feverup.com/en/brussels",
+    "format": "crawl",
+    "access": "direct",
+    "eventLinkPattern": "^/m/[0-9]+/en$",
+    "liveMaxLinks": 12,
+    "maxLinks": 30
+  },
+  {
+    "id": "allevents",
+    "name": "AllEvents Brussels",
+    "kind": "community",
+    "url": "https://allevents.in/brussels",
+    "format": "jsonld",
+    "access": "direct"
+  },
+  {
+    "id": "happening-next",
+    "name": "HappeningNext Brussels",
+    "kind": "community",
+    "url": "https://happeningnext.com/brussels",
+    "format": "jsonld",
+    "access": "direct"
+  },
+  {
+    "id": "xceed",
+    "name": "Xceed · Brussels",
+    "kind": "ticketing",
+    "url": "https://xceed.me/en/brussels/events",
+    "format": "jsonld",
+    "access": "direct"
+  },
+  {
+    "id": "meetup",
+    "name": "Meetup Brussels",
+    "kind": "community",
+    "url": "https://www.meetup.com/find/be--brussels/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Bruxelles",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 60
+  },
+  {
+    "id": "meetup-friends",
+    "name": "Meetup · nouvelles rencontres",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/find/be--brussels/meet-new-friends/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Bruxelles",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 20
+  },
+  {
+    "id": "meetup-networking",
+    "name": "Meetup · networking",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/find/be--brussels/networking/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Bruxelles",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 20
+  },
+  {
+    "id": "meetup-sports-hobbies",
+    "name": "Meetup · sports & loisirs",
+    "kind": "community",
+    "url": "https://www.meetup.com/find/be--brussels/sports-and-hobbies/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Bruxelles",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 20
+  },
+  {
+    "id": "meetup-outdoors",
+    "name": "Meetup · plein air",
+    "kind": "community",
+    "url": "https://www.meetup.com/find/be--brussels/outdoor-activities/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Bruxelles",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 20
+  },
+  {
+    "id": "meetup-live-music",
+    "name": "Meetup · musique live",
+    "kind": "community",
+    "url": "https://www.meetup.com/find/?location=be--brussels&categoryId=395",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Bruxelles",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 20
+  },
+  {
+    "id": "meetup-social-night",
+    "name": "Brussels Social Night",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/brussels-social-night/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Bruxelles",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 4,
+    "meetupGroup": true
+  },
+  {
+    "id": "meetup-social-drinking",
+    "name": "Brussels Social Drinking",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/brussels-social-drinking-meetup-group/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Bruxelles",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 4,
+    "meetupGroup": true
+  },
+  {
+    "id": "meetup-fun-games",
+    "name": "Brussels Fun Games",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/brussels-card-games-meetup/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Bruxelles",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 4,
+    "meetupGroup": true
+  },
+  {
+    "id": "meetup-language",
+    "name": "Conversation Exchange Brussels",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/brusselsinternationalhubevents/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Bruxelles",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 4,
+    "meetupGroup": true
+  },
+  {
+    "id": "meetup-nice-people",
+    "name": "Nice People Brussels",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/brussels-social-group/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Bruxelles",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 4,
+    "meetupGroup": true
+  },
+  {
+    "id": "meetup-coffee",
+    "name": "Weekend Morning Coffee",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/weekend-morning-coffee-group/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Bruxelles",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 4,
+    "meetupGroup": true
+  },
+  {
+    "id": "meetup-singles",
+    "name": "International Singles Brussels",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/brussels-young-professional-singles-meetup-group/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Bruxelles",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 4,
+    "meetupGroup": true
+  },
+  {
+    "id": "meetup-mixer",
+    "name": "The Mixer Brussels",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/the-mixer-brussels/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Bruxelles",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 4,
+    "meetupGroup": true
+  },
+  {
+    "id": "meetup-brunch",
+    "name": "Brunch & Friends Brussels",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/brunch-and-friends-in-brussels/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Bruxelles",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 4,
+    "meetupGroup": true
+  },
+  {
+    "id": "meetup-euromeet",
+    "name": "EuroMeet · Brussels Social Network",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/euromeet-the-real-life-brussels-social-network/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Bruxelles",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 4,
+    "meetupGroup": true
+  },
+  {
+    "id": "meetup-brussels",
+    "name": "The Brussels Meetup Group",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/brussels-meetup/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Bruxelles",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 4,
+    "meetupGroup": true
+  },
+  {
+    "id": "meetup-chill",
+    "name": "Chill Out in Brussels",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/meetup-belgium-brussels/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Bruxelles",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 4,
+    "meetupGroup": true
+  },
+  {
+    "id": "meetup-internationals",
+    "name": "Socialize with internationals",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/international-parties-expats-locals-group/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Bruxelles",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 4,
+    "meetupGroup": true
+  },
+  {
+    "id": "meetup-boardgame-monkeys",
+    "name": "Boardgame Monkeys Brussels",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/boardgamemonkeys/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Bruxelles",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 4,
+    "meetupGroup": true
+  },
+  {
+    "id": "meetup-french-games",
+    "name": "French Conversation & Boardgames",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/groupe-meetup-brussels-conversation-boardgames-in-french/",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Bruxelles",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 4,
+    "meetupGroup": true
+  },
+  {
+    "id": "meetup-belgium-antwerp",
+    "name": "Meetup · Anvers",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/find/?location=be--antwerpen",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Anvers",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 12
+  },
+  {
+    "id": "meetup-belgium-ghent",
+    "name": "Meetup · Gand",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/find/?location=be--gent",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Gand",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 12
+  },
+  {
+    "id": "meetup-belgium-bruges",
+    "name": "Meetup · Bruges",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/find/?location=be--brugge",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Bruges",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 12
+  },
+  {
+    "id": "meetup-belgium-leuven",
+    "name": "Meetup · Louvain",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/find/?location=be--leuven",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Louvain",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 12
+  },
+  {
+    "id": "meetup-belgium-hasselt",
+    "name": "Meetup · Hasselt",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/find/?location=be--hasselt",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Hasselt",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 12
+  },
+  {
+    "id": "meetup-belgium-mechelen",
+    "name": "Meetup · Malines",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/find/?location=be--mechelen",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Malines",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 12
+  },
+  {
+    "id": "meetup-belgium-kortrijk",
+    "name": "Meetup · Courtrai",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/find/?location=be--kortrijk",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Courtrai",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 12
+  },
+  {
+    "id": "meetup-belgium-ostend",
+    "name": "Meetup · Ostende",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/find/?location=be--oostende",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Ostende",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 12
+  },
+  {
+    "id": "meetup-belgium-liege",
+    "name": "Meetup · Liège",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/find/?location=be--liege",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Liège",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 12
+  },
+  {
+    "id": "meetup-belgium-namur",
+    "name": "Meetup · Namur",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/find/?location=be--namur",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Namur",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 12
+  },
+  {
+    "id": "meetup-belgium-charleroi",
+    "name": "Meetup · Charleroi",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/find/?location=be--charleroi",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Charleroi",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 12
+  },
+  {
+    "id": "meetup-belgium-mons",
+    "name": "Meetup · Mons",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/find/?location=be--mons",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Mons",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 12
+  },
+  {
+    "id": "meetup-belgium-aalst",
+    "name": "Meetup · Alost",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/find/?location=be--aalst",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Alost",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 12
+  },
+  {
+    "id": "meetup-belgium-genk",
+    "name": "Meetup · Genk",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/find/?location=be--genk",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Genk",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 12
+  },
+  {
+    "id": "meetup-belgium-wavre",
+    "name": "Meetup · Wavre",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/find/?location=be--wavre",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Wavre",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 12
+  },
+  {
+    "id": "meetup-belgium-nivelles",
+    "name": "Meetup · Nivelles",
+    "kind": "meeting",
+    "url": "https://www.meetup.com/find/?location=be--nivelles",
+    "format": "jsonld",
+    "access": "direct",
+    "city": "Nivelles",
+    "assumeBelgium": true,
+    "enrichImages": true,
+    "replaceGenericImages": true,
+    "groupImageFallback": true,
+    "imageEnrichMax": 12
+  },
+  {
+    "id": "blabla-brussels",
+    "name": "BlaBla Language Exchange Brussels",
+    "kind": "meeting",
+    "url": "https://www.blablacommunity.com/events/blabla-brussels",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "scene-seeker",
+    "name": "Scene Seeker Brussels",
+    "kind": "culture",
+    "url": "https://sceneseeker.brussels/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "supermiro",
+    "name": "Supermiro Belgium",
+    "kind": "culture",
+    "url": "https://www.supermiro.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "agenda-brussels",
+    "name": "agenda.brussels",
+    "kind": "culture",
+    "url": "https://agenda.brussels/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "que-faire",
+    "name": "Quefaire.be",
+    "kind": "community",
+    "url": "https://www.quefaire.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "uit-vlaanderen",
+    "name": "UiTinVlaanderen · Flandre & Bruxelles",
+    "kind": "culture",
+    "url": "https://www.uitinvlaanderen.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "uitdatabank-api",
+    "name": "UiTdatabank · API officielle",
+    "kind": "culture",
+    "url": "https://search.uitdatabank.be/offers/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "visit-wallonia-national",
+    "name": "Visit Wallonia · agenda régional",
+    "kind": "official",
+    "url": "https://visitwallonia.be/fr-be/3/que-faire/agenda-des-evenements",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "visit-antwerp",
+    "name": "Visit Antwerpen · événements",
+    "kind": "official",
+    "url": "https://visit.antwerpen.be/en/events-exhibitions-en",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "visit-ghent",
+    "name": "Visit Gent · calendrier",
+    "kind": "official",
+    "url": "https://visit.gent.be/fr/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "visit-bruges",
+    "name": "Visit Bruges · agenda",
+    "kind": "official",
+    "url": "https://www.visitbruges.be/fr/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "visit-leuven",
+    "name": "Visit Leuven · événements",
+    "kind": "official",
+    "url": "https://www.visitleuven.be/en/events",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "uit-mechelen",
+    "name": "UiT in Mechelen",
+    "kind": "official",
+    "url": "https://uitin.mechelen.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "uit-kortrijk",
+    "name": "UiT in Kortrijk",
+    "kind": "official",
+    "url": "https://www.kortrijk.be/uitinkortrijk",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "uit-oostende",
+    "name": "UiT in Oostende",
+    "kind": "official",
+    "url": "https://www.uitinoostende.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "namur-tourisme",
+    "name": "Visit Namur · événements",
+    "kind": "official",
+    "url": "https://www.namurtourisme.be/fr/evenements/",
+    "format": "public",
+    "access": "public",
+    "assumeBelgium": true,
+    "maxPageBytes": 1500000
+  },
+  {
+    "id": "charleroi-agenda",
+    "name": "Ville de Charleroi · agenda",
+    "kind": "official",
+    "url": "https://www.charleroi.be/agenda",
+    "format": "wallonia",
+    "access": "direct",
+    "assumeBelgium": true,
+    "listingPageTemplate": "https://www.charleroi.be/agenda/page/{page}",
+    "listingPages": 12,
+    "liveListingPages": 6,
+    "enrichImages": true,
+    "imageEnrichMax": 30,
+    "replaceGenericImages": true
+  },
+  {
+    "id": "visit-mons",
+    "name": "Visit Mons · agenda",
+    "kind": "official",
+    "url": "https://www.visitmons.be/fr/agenda/all",
+    "format": "wallonia",
+    "access": "direct",
+    "assumeBelgium": true,
+    "listingPageParam": "page",
+    "listingPages": 12,
+    "liveListingPages": 6
+  },
+  {
+    "id": "visit-tournai",
+    "name": "Visit Tournai · agenda",
+    "kind": "official",
+    "url": "https://www.visittournai.be/agenda/",
+    "format": "wallonia",
+    "access": "direct",
+    "assumeBelgium": true
+  },
+  {
+    "id": "destination-brabant-wallon",
+    "name": "Destination Brabant wallon",
+    "kind": "official",
+    "url": "https://www.destinationbw.be/fr/agenda-fr/",
+    "format": "wallonia",
+    "access": "direct",
+    "assumeBelgium": true
+  },
+  {
+    "id": "visit-ardenne",
+    "name": "Visit Ardenne · événements",
+    "kind": "official",
+    "url": "https://www.visitardenne.com/fr/le-meilleur-de-lardenne/evenements",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "hainaut-province",
+    "name": "Province de Hainaut · agenda",
+    "kind": "official",
+    "url": "https://www.hainaut.be/agenda",
+    "format": "wallonia",
+    "access": "direct",
+    "assumeBelgium": true,
+    "maxPageBytes": 2000000
+  },
+  {
+    "id": "explore-meuse",
+    "name": "Explore Meuse · agenda Namur-Dinant",
+    "kind": "official",
+    "url": "https://www.exploremeuse.be/agenda/calendrier",
+    "format": "wallonia",
+    "access": "direct",
+    "assumeBelgium": true,
+    "maxPageBytes": 2000000
+  },
+  {
+    "id": "pays-arlon",
+    "name": "Pays d’Arlon · agenda",
+    "kind": "official",
+    "url": "https://www.paysdarlon.be/agenda/agenda-complet/",
+    "format": "wallonia",
+    "access": "direct",
+    "assumeBelgium": true,
+    "maxPageBytes": 2000000
+  },
+  {
+    "id": "city-marche",
+    "name": "Marche-en-Famenne · manifestations",
+    "kind": "official",
+    "url": "https://www.marche.be/tourisme/agenda-des-manifestations/",
+    "format": "wallonia",
+    "access": "direct",
+    "assumeBelgium": true,
+    "maxPageBytes": 2000000
+  },
+  {
+    "id": "malmedy-tourism",
+    "name": "Malmedy Tourisme · agenda",
+    "kind": "official",
+    "url": "https://www.malmedy-tourisme.be/en/agenda/",
+    "format": "wallonia",
+    "access": "direct",
+    "assumeBelgium": true,
+    "maxPageBytes": 2000000,
+    "listingPageTemplate": "https://www.malmedy-tourisme.be/en/agenda/page/{page}/",
+    "listingPages": 2,
+    "liveListingPages": 2
+  },
+  {
+    "id": "liege-expo",
+    "name": "Liège Expo · agenda",
+    "kind": "venue",
+    "url": "https://www.liege-expo.com/agenda/",
+    "format": "wallonia",
+    "access": "direct",
+    "assumeBelgium": true,
+    "maxPageBytes": 2000000
+  },
+  {
+    "id": "antwerp-expo",
+    "name": "Antwerp Expo · calendrier",
+    "kind": "venue",
+    "url": "https://www.antwerpexpo.be/en/calendar/",
+    "format": "wallonia",
+    "access": "direct",
+    "assumeBelgium": true,
+    "maxPageBytes": 2000000
+  },
+  {
+    "id": "tvlux-agenda",
+    "name": "TV Lux · L’Agenda Plus",
+    "kind": "culture",
+    "url": "https://www.tvlux.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "quefaire-luxembourg",
+    "name": "Quefaire.be · Province de Luxembourg",
+    "kind": "community",
+    "url": "https://www.quefaire.be/province-de-luxembourg",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "ostbelgien-events",
+    "name": "Cantons de l’Est · agenda officiel",
+    "kind": "official",
+    "url": "https://www.ostbelgien.eu/fr/evenements",
+    "format": "ostbelgien",
+    "access": "direct",
+    "assumeBelgium": true,
+    "listingPageParam": "page",
+    "listingPages": 8,
+    "liveListingPages": 4,
+    "maxPageBytes": 1000000
+  },
+  {
+    "id": "the-bulletin",
+    "name": "The Bulletin Events",
+    "kind": "culture",
+    "url": "https://www.thebulletin.be/events",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "brussels-times",
+    "name": "The Brussels Times",
+    "kind": "culture",
+    "url": "https://www.brusselstimes.com/brussels",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "brusselslife",
+    "name": "BrusselsLife · Events",
+    "kind": "culture",
+    "url": "https://www.brusselslife.be/en/events",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "volume-brussels",
+    "name": "Volume Brussels · Nightlife Agenda",
+    "kind": "culture",
+    "url": "https://volumebrussels.com/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "brussels-calling",
+    "name": "Brussels Calling",
+    "kind": "community",
+    "url": "https://www.brusselscalling.com/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "out-be",
+    "name": "Out.be",
+    "kind": "culture",
+    "url": "https://www.out.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "visit-wallonia",
+    "name": "Visit Wallonia · villes wallonnes",
+    "kind": "culture",
+    "url": "https://visitwallonia.be/fr-be/3/ou-aller/villes-wallonnes",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "visit-flanders",
+    "name": "Visit Flanders Events",
+    "kind": "culture",
+    "url": "https://www.visitflanders.com/en/discover-flanders/events",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "fete-musique",
+    "name": "Fête de la Musique",
+    "kind": "culture",
+    "url": "https://www.fetedelamusique.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "brussels-pride",
+    "name": "Brussels Pride",
+    "kind": "community",
+    "url": "https://www.brusselspride.eu/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "rainbowhouse",
+    "name": "RainbowHouse Brussels",
+    "kind": "community",
+    "url": "https://rainbowhouse.be/en/events/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "brussels-rainbow-village",
+    "name": "Brussels Rainbow Village",
+    "kind": "culture",
+    "url": "https://brusselsrainbowvillage.com/calendar/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "ket-brussels",
+    "name": "KET Brussels",
+    "kind": "culture",
+    "url": "https://ket.brussels/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "patroc-brussels",
+    "name": "Patroc · Brussels Gay Guide",
+    "kind": "culture",
+    "url": "https://www.patroc.com/gay/brussels/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "bruxelles-secrete",
+    "name": "Bruxelles Secrète",
+    "kind": "culture",
+    "url": "https://bruxellessecrete.com/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "le-bonbon",
+    "name": "Le Bonbon Bruxelles",
+    "kind": "culture",
+    "url": "https://lebonbon.be/bruxelles/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "b-art",
+    "name": "B/ART Brussels",
+    "kind": "culture",
+    "url": "https://b-art.brussels/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "ticketmaster",
+    "name": "Ticketmaster Belgique",
+    "kind": "ticketing",
+    "url": "https://www.ticketmaster.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "dice",
+    "name": "DICE Brussels",
+    "kind": "ticketing",
+    "url": "https://dice.fm/browse/brussels",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "see-tickets",
+    "name": "See Tickets Belgique",
+    "kind": "ticketing",
+    "url": "https://www.seetickets.com/be",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "billetweb",
+    "name": "Billetweb Brussels",
+    "kind": "ticketing",
+    "url": "https://www.billetweb.fr/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "weezevent",
+    "name": "Weezevent",
+    "kind": "ticketing",
+    "url": "https://weezevent.com/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "live-nation",
+    "name": "Live Nation Belgium",
+    "kind": "ticketing",
+    "url": "https://www.livenation.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "luma",
+    "name": "Luma · Brussels",
+    "kind": "ticketing",
+    "url": "https://luma.com/brussels",
+    "format": "jsonld",
+    "access": "direct"
+  },
+  {
+    "id": "hipsy",
+    "name": "Hipsy · Brussels",
+    "kind": "ticketing",
+    "url": "https://hipsy.be/events?query=brussels",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "arsene-50",
+    "name": "Arsène 50",
+    "kind": "ticketing",
+    "url": "https://www.arsene50.brussels/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "article-27",
+    "name": "Article 27 Bruxelles",
+    "kind": "culture",
+    "url": "https://article27.be/bruxelles/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "kiosk-radio",
+    "name": "Kiosk Radio",
+    "kind": "venue",
+    "url": "https://kioskradio.com/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "circle-park",
+    "name": "Circle Park",
+    "kind": "venue",
+    "url": "https://circlepark.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "hangar",
+    "name": "Hangar Brussels",
+    "kind": "venue",
+    "url": "https://hangar.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "la-cabane",
+    "name": "La Cabane",
+    "kind": "venue",
+    "url": "https://www.lacabane.brussels/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "buda",
+    "name": "BUDA BXL",
+    "kind": "venue",
+    "url": "https://www.budabxl.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "reset",
+    "name": "Reset Brussels",
+    "kind": "venue",
+    "url": "https://reset.brussels/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "saintklet",
+    "name": "Saintklet",
+    "kind": "venue",
+    "url": "https://www.saintklet.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "mosfet-club",
+    "name": "Mosfet Club",
+    "kind": "venue",
+    "url": "https://mosfet-club.com/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "plein-publiek",
+    "name": "Plein Publiek BXL",
+    "kind": "venue",
+    "url": "https://pleinpubliek.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "brussels-beer-project",
+    "name": "Brussels Beer Project",
+    "kind": "venue",
+    "url": "https://www.beerproject.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "chezwawa-games",
+    "name": "CHEZWaWa Game Night",
+    "kind": "meeting",
+    "url": "https://chezwawa.com/news/game-night",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "scotts-bar",
+    "name": "Scott's Bar Events",
+    "kind": "meeting",
+    "url": "https://www.scottsbarbrussels.com/events",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "full-circle",
+    "name": "Full Circle House",
+    "kind": "community",
+    "url": "https://fullcircle.eu/events",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "restless",
+    "name": "restless.brussels",
+    "kind": "community",
+    "url": "https://restless.brussels/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "at-seven",
+    "name": "@seven International Community",
+    "kind": "meeting",
+    "url": "https://www.atseven.eu/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "serve-city",
+    "name": "Serve the City Brussels",
+    "kind": "community",
+    "url": "https://www.servethecity.brussels/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "commons-hub",
+    "name": "Commons Hub Brussels",
+    "kind": "community",
+    "url": "https://commonshub.brussels/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "commons-luma",
+    "name": "Commons Hub · calendrier Luma",
+    "kind": "community",
+    "url": "https://api2.luma.com/ics/get?entity=calendar&id=cal-kWlIiw3HsJFhs25",
+    "format": "ics",
+    "access": "direct",
+    "enrichImages": true,
+    "imageEnrichMax": 36
+  },
+  {
+    "id": "bruit",
+    "name": "BRUIT · Brussels IT Community",
+    "kind": "community",
+    "url": "https://www.bruit.club/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "dao-brussels",
+    "name": "DAO.Brussels",
+    "kind": "community",
+    "url": "https://dao.brussels/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "esn-ulb",
+    "name": "ESN ULB Brussels",
+    "kind": "community",
+    "url": "https://www.esnulbbrussels.org/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "vub-events",
+    "name": "VUB Events",
+    "kind": "culture",
+    "url": "https://www.vub.be/en/events",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "ulb-culture",
+    "name": "ULB Culture",
+    "kind": "culture",
+    "url": "https://www.ulb.be/fr/culture/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "timeleft",
+    "name": "Timeleft Brussels",
+    "kind": "meeting",
+    "url": "https://timeleft.com/cities/brussels/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "internations",
+    "name": "InterNations Brussels",
+    "kind": "meeting",
+    "url": "https://www.internations.org/brussels-expats/events",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "hitchhive",
+    "name": "HitchHive Brussels",
+    "kind": "meeting",
+    "url": "https://hitchhive.app/cities/brussels",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "kuupo",
+    "name": "Kuupo public map",
+    "kind": "meeting",
+    "url": "https://kuupo.com/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "hyke",
+    "name": "Hyke local event map",
+    "kind": "meeting",
+    "url": "https://www.hykefresh.com/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "offline-app",
+    "name": "offline public event map",
+    "kind": "meeting",
+    "url": "https://www.beoffline.app/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "club-up",
+    "name": "Club Up Brussels",
+    "kind": "meeting",
+    "url": "https://clubupcrew.com/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "onvasortir",
+    "name": "OnVaSortir Bruxelles",
+    "kind": "meeting",
+    "url": "https://bruxelles.onvasortir.com/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "meet-people-social",
+    "name": "Meet People Social · Brussels",
+    "kind": "meeting",
+    "url": "https://meetpeoplesocial.com/events/social-events-in-brussels",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "brainberg",
+    "name": "Brainberg · Brussels events",
+    "kind": "meeting",
+    "url": "https://brainberg.eu/events",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "pickup-basketball",
+    "name": "Pickup Basketball Brussels",
+    "kind": "meeting",
+    "url": "https://www.pickupbasketball.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "rouge-run-linktree",
+    "name": "Rouge Run Club · liens",
+    "kind": "meeting",
+    "url": "https://linktr.ee/rougerunclub",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "rouge-run-heylo",
+    "name": "Rouge Run Club · Heylo",
+    "kind": "meeting",
+    "url": "https://link.heylo.co/oed3",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "brussels-pub-crawl",
+    "name": "Brussels Pub Crawl",
+    "kind": "meeting",
+    "url": "https://www.brusselspubcrawl.com/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "tipsy-brussels",
+    "name": "Tipsy Brussels",
+    "kind": "meeting",
+    "url": "https://www.tipsy.brussels/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "partyfinder",
+    "name": "Partyfinder Brussels",
+    "kind": "ticketing",
+    "url": "https://partyfinder.com/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "djguide",
+    "name": "DJGuide Brussels",
+    "kind": "ticketing",
+    "url": "https://www.djguide.nl/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "reddit",
+    "name": "Reddit · r/brussels",
+    "kind": "social",
+    "url": "https://www.reddit.com/r/brussels/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "euromeet-whatsapp",
+    "name": "EuroMeet WhatsApp Community",
+    "kind": "social",
+    "url": "https://chat.whatsapp.com/FMjWrr9wCR7JYsudMD6XV0",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "euromeet-telegram",
+    "name": "EuroMeet Telegram",
+    "kind": "social",
+    "url": "https://t.me/euromeet_meetup",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "euromeet-facebook",
+    "name": "EuroMeet Facebook Group",
+    "kind": "social",
+    "url": "https://www.facebook.com/groups/euromeet",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "euromeet-linkedin",
+    "name": "EuroMeet LinkedIn Group",
+    "kind": "social",
+    "url": "https://www.linkedin.com/groups/13194613/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "blabla-telegram",
+    "name": "Brussels BlaBla Telegram",
+    "kind": "social",
+    "url": "https://t.me/+vO0CNez2RGc3YjM0",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "blabla-facebook",
+    "name": "BlaBla Language Facebook",
+    "kind": "social",
+    "url": "https://www.facebook.com/BlaBlaLanguageExchange",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "blabla-instagram",
+    "name": "BlaBla Language Instagram",
+    "kind": "social",
+    "url": "https://www.instagram.com/blablalanguage/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "dao-discord",
+    "name": "DAO Brussels Discord",
+    "kind": "social",
+    "url": "https://discord.dao.brussels/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "dao-whatsapp",
+    "name": "DAO Brussels WhatsApp",
+    "kind": "social",
+    "url": "https://whatsapp.dao.brussels/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "facebook-sortir-ce-soir",
+    "name": "Facebook · Où sortir ce soir à Bruxelles",
+    "kind": "social",
+    "url": "https://www.facebook.com/groups/1635633216683364/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "facebook-expats-working",
+    "name": "Facebook · Expats living & working in Brussels",
+    "kind": "social",
+    "url": "https://www.facebook.com/groups/expats.living.and.working.in.brussels/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "facebook-omshana",
+    "name": "Facebook · Omshana Community",
+    "kind": "social",
+    "url": "https://www.facebook.com/groups/omshana",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "facebook-vostock",
+    "name": "Facebook · Vostock Outer",
+    "kind": "social",
+    "url": "https://www.facebook.com/groups/vostockouter",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "facebook-brussels-together",
+    "name": "Facebook · BrusselsTogether",
+    "kind": "social",
+    "url": "https://www.facebook.com/groups/BrusselsTogether",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "facebook-fast4",
+    "name": "Facebook · Fast4 Tennis Brussels",
+    "kind": "social",
+    "url": "https://www.facebook.com/groups/870679407577904",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "facebook-grandir-laeken",
+    "name": "Facebook · Grandir Ensemble Laeken",
+    "kind": "social",
+    "url": "https://www.facebook.com/groups/860186044694358",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "facebook-bikers",
+    "name": "Facebook · Brusseleirs Bikers",
+    "kind": "social",
+    "url": "https://www.facebook.com/groups/BrusseleirsBikers",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "facebook-spaak",
+    "name": "Facebook · SPAAK events",
+    "kind": "social",
+    "url": "https://www.facebook.com/SPAAK.collective/events",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "facebook-omshana-page",
+    "name": "Facebook · Omshana page",
+    "kind": "social",
+    "url": "https://www.facebook.com/OmshanaCommunity",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "facebook-outliers",
+    "name": "Facebook · Outliers Brussels",
+    "kind": "social",
+    "url": "https://www.facebook.com/profile.php?id=61565826894970",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "euromeet-messenger",
+    "name": "EuroMeet Messenger chat",
+    "kind": "social",
+    "url": "https://m.me/ch/AbaV86vk4SHop_eD/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "commons-discord",
+    "name": "Commons Hub Discord",
+    "kind": "social",
+    "url": "https://discord.commonshub.brussels/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "bruit-discord",
+    "name": "BRUIT Brussels Discord",
+    "kind": "social",
+    "url": "https://discord.gg/FP8qKcQhcz",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "parkour-discord",
+    "name": "Parkour Belgium Discord",
+    "kind": "social",
+    "url": "https://discord.gg/55c723KeCR",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "burners-discord",
+    "name": "Belgian Burners · Burning Café Discord",
+    "kind": "social",
+    "url": "https://discord.gg/KqHgQfzg",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "outpost-mtg-discord",
+    "name": "MTG Belgium · Outpost Brussels Discord",
+    "kind": "social",
+    "url": "https://discord.gg/tV7UHnwB",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "besciences-discord",
+    "name": "BE Sciences ULB Discord",
+    "kind": "social",
+    "url": "https://discord.gg/dHxwunjyAn",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "brussels-clash-discord",
+    "name": "Brussels Clash · ULB Discord",
+    "kind": "social",
+    "url": "https://discord.gg/yABu85Ffu3",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "ggj-brussels-discord",
+    "name": "Global Game Jam Brussels Discord",
+    "kind": "social",
+    "url": "https://discord.gg/FhaAXD4Z",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "belgium-discord",
+    "name": "Belgium Official Discord",
+    "kind": "social",
+    "url": "https://discord.com/invite/belgiumofficial",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "commons-whatsapp",
+    "name": "Commons Hub WhatsApp",
+    "kind": "social",
+    "url": "https://whatsapp.commonshub.brussels/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "spaak-whatsapp",
+    "name": "SPAAK WhatsApp Community",
+    "kind": "social",
+    "url": "https://chat.whatsapp.com/HUNr3wiuj4wHEIem4o2JBw",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "outliers-whatsapp",
+    "name": "Outliers Brussels WhatsApp",
+    "kind": "social",
+    "url": "https://chat.whatsapp.com/EpibVaEmGb38brL07YqMR2",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "omshana-whatsapp",
+    "name": "Omshana WhatsApp",
+    "kind": "social",
+    "url": "https://chat.whatsapp.com/IdDdk9G8damKjV787DwDbN",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "parkour-whatsapp",
+    "name": "Parkour Belgium WhatsApp",
+    "kind": "social",
+    "url": "https://chat.whatsapp.com/FBjrXTW0GVgI0OO7UM9jKv",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "rouge-run-whatsapp",
+    "name": "Rouge Run Club WhatsApp",
+    "kind": "social",
+    "url": "https://chat.whatsapp.com/I4TZiemMQD4GVWwiEiL3n1",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "fast4-whatsapp",
+    "name": "Fast4 Tennis Brussels WhatsApp",
+    "kind": "social",
+    "url": "https://chat.whatsapp.com/JqV7fR4vvrpGlybbowLRxx",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "esn-ulb-whatsapp",
+    "name": "ESN ULB Brussels WhatsApp",
+    "kind": "social",
+    "url": "https://chat.whatsapp.com/DxXTPaUXocvLu1c12u69iQ?mode=gi_t",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "rave-belgium-telegram",
+    "name": "Telegram · Rave in Belgium Calendar",
+    "kind": "social",
+    "url": "https://t.me/raveinbelgium",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "uaculture-telegram",
+    "name": "Telegram · UA culture in BE",
+    "kind": "social",
+    "url": "https://t.me/uacultbe",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "bitcoin-brussels-telegram",
+    "name": "Telegram · Brussels Bitcoin Meetup",
+    "kind": "social",
+    "url": "https://t.me/BrusselsBitcoinMeetupGroup",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "furmeet-telegram",
+    "name": "Telegram · FBW FurMeet Events",
+    "kind": "social",
+    "url": "https://t.me/+K9Y7AJ_Z_zExOWI8",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "furry-events-telegram",
+    "name": "Telegram · Belgian Furry Events",
+    "kind": "social",
+    "url": "https://t.me/belgianfurryevents",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "popoff-telegram",
+    "name": "Telegram · Popoff Kitchen",
+    "kind": "social",
+    "url": "https://t.me/popoffkitchen",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "spaak-linktree",
+    "name": "SPAAK · social hub",
+    "kind": "social",
+    "url": "https://linktr.ee/spaak.collective",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "outliers-linktree",
+    "name": "Outliers Brussels · social hub",
+    "kind": "social",
+    "url": "https://linktr.ee/outliers.bxl",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "parkour-linktree",
+    "name": "Parkour Belgium · social hub",
+    "kind": "social",
+    "url": "https://linktr.ee/parkourbelgiumcommunity",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "esn-ulb-linktree",
+    "name": "ESN ULB Brussels · social hub",
+    "kind": "social",
+    "url": "https://linktr.ee/esnulbbrussels",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "facebook-events",
+    "name": "Facebook Events Brussels",
+    "kind": "social",
+    "url": "https://www.facebook.com/events/explore/brussels-belgium/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "instagram-bruxelles",
+    "name": "Instagram · #bruxelles",
+    "kind": "social",
+    "url": "https://www.instagram.com/explore/tags/bruxelles/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "instagram-brussels",
+    "name": "Instagram · #brussels",
+    "kind": "social",
+    "url": "https://www.instagram.com/explore/tags/brussels/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "instagram-kiosk",
+    "name": "Kiosk Radio Instagram",
+    "kind": "social",
+    "url": "https://www.instagram.com/kioskradio/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "instagram-c12",
+    "name": "C12 Instagram",
+    "kind": "social",
+    "url": "https://www.instagram.com/c12space/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "instagram-fuse",
+    "name": "Fuse Instagram",
+    "kind": "social",
+    "url": "https://www.instagram.com/fusebrussels/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "instagram-spaak",
+    "name": "SPAAK Instagram",
+    "kind": "social",
+    "url": "https://www.instagram.com/spaak.collective/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "instagram-outliers",
+    "name": "Outliers Brussels Instagram",
+    "kind": "social",
+    "url": "https://www.instagram.com/outliers.bxl/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "instagram-rouge-run",
+    "name": "Rouge Run Club Instagram",
+    "kind": "social",
+    "url": "https://www.instagram.com/rougerunclub/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "instagram-urban-sessions",
+    "name": "Urban Sessions Instagram",
+    "kind": "social",
+    "url": "https://www.instagram.com/urbansessions.official/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "tiktok-brussels",
+    "name": "TikTok · #brussels",
+    "kind": "social",
+    "url": "https://www.tiktok.com/tag/brussels",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "tiktok-bruxelles",
+    "name": "TikTok · #bruxelles",
+    "kind": "social",
+    "url": "https://www.tiktok.com/tag/bruxelles",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "bumble-irl",
+    "name": "Bumble IRL",
+    "kind": "meeting",
+    "url": "https://bumble.com/en/events",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "thursday",
+    "name": "Thursday Dating Events",
+    "kind": "meeting",
+    "url": "https://events.getthursday.com/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "knockk",
+    "name": "Knockk",
+    "kind": "meeting",
+    "url": "https://knockk.app/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "amigos",
+    "name": "Amigos",
+    "kind": "meeting",
+    "url": "https://www.amigosapp.co/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "inner-circle",
+    "name": "Inner Circle",
+    "kind": "meeting",
+    "url": "https://www.theinnercircle.co/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "droppin",
+    "name": "Droppin",
+    "kind": "meeting",
+    "url": "https://www.droppin.eu/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "jointly",
+    "name": "Jointly Belgium",
+    "kind": "meeting",
+    "url": "https://www.joinjointly.com/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "gomingle",
+    "name": "GoMingle",
+    "kind": "meeting",
+    "url": "https://gomingle.eu/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "outgo",
+    "name": "OutGo",
+    "kind": "meeting",
+    "url": "https://outgo.info/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "invitor",
+    "name": "Invitor",
+    "kind": "meeting",
+    "url": "https://invitor.com/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "amigoomap",
+    "name": "Amigoomap",
+    "kind": "meeting",
+    "url": "https://amigoomap.com/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "formeet",
+    "name": "Formeet",
+    "kind": "meeting",
+    "url": "https://www.formeet.fr/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "wish-gravity",
+    "name": "Wish Gravity",
+    "kind": "meeting",
+    "url": "https://gravityapp.org/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "frimake",
+    "name": "Frimake",
+    "kind": "meeting",
+    "url": "https://frimake.com/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "couchsurfing",
+    "name": "Couchsurfing Brussels Events",
+    "kind": "meeting",
+    "url": "https://www.couchsurfing.com/places/europe/belgium/brussels",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "spontacts",
+    "name": "Spontacts",
+    "kind": "meeting",
+    "url": "https://www.spontacts.com/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "locals",
+    "name": "Locals.org",
+    "kind": "meeting",
+    "url": "https://locals.org/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "geneva",
+    "name": "Geneva Communities",
+    "kind": "community",
+    "url": "https://www.geneva.com/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "strava",
+    "name": "Strava Brussels Clubs",
+    "kind": "social",
+    "url": "https://www.strava.com/clubs/search?text=Brussels",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "erasmus-facebook",
+    "name": "Erasmus Brussels Facebook",
+    "kind": "social",
+    "url": "https://www.facebook.com/erasmusbrussels",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "city-antwerp",
+    "name": "Ville d’Anvers · agenda",
+    "kind": "official",
+    "url": "https://www.antwerpen.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-mechelen",
+    "name": "Ville de Malines · activités",
+    "kind": "official",
+    "url": "https://www.mechelen.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-turnhout",
+    "name": "Ville de Turnhout · activités",
+    "kind": "official",
+    "url": "https://www.turnhout.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-aalst",
+    "name": "Ville d’Alost · agenda",
+    "kind": "official",
+    "url": "https://www.aalst.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-sint-niklaas",
+    "name": "Ville de Saint-Nicolas · agenda",
+    "kind": "official",
+    "url": "https://www.snik.sint-niklaas.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-ghent",
+    "name": "Ville de Gand · sorties",
+    "kind": "official",
+    "url": "https://stad.gent/nl/uit-in-gent",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-bruges",
+    "name": "Ville de Bruges · activités",
+    "kind": "official",
+    "url": "https://www.brugge.be/vrije-tijd/cultuur/uit-in-brugge",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-oostende",
+    "name": "Ville d’Ostende · activités",
+    "kind": "official",
+    "url": "https://www.oostende.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-kortrijk",
+    "name": "Ville de Courtrai · agenda",
+    "kind": "official",
+    "url": "https://www.kortrijk.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-roeselare",
+    "name": "Ville de Roulers · sorties",
+    "kind": "official",
+    "url": "https://www.roeselare.be/vrije-tijd/uit",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-ieper",
+    "name": "Ville d’Ypres · activités",
+    "kind": "official",
+    "url": "https://www.ieper.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-leuven",
+    "name": "Ville de Louvain · agenda",
+    "kind": "official",
+    "url": "https://www.leuven.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-diest",
+    "name": "Ville de Diest · activités",
+    "kind": "official",
+    "url": "https://www.diest.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-tienen",
+    "name": "Ville de Tirlemont · activités",
+    "kind": "official",
+    "url": "https://www.tienen.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-vilvoorde",
+    "name": "Ville de Vilvorde · activités",
+    "kind": "official",
+    "url": "https://www.vilvoorde.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-hasselt",
+    "name": "Ville de Hasselt · sorties",
+    "kind": "official",
+    "url": "https://www.hasselt.be/nl/uitinhasselt",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-genk",
+    "name": "Ville de Genk · activités",
+    "kind": "official",
+    "url": "https://www.genk.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-tongeren",
+    "name": "Tongres-Borgloon · activités",
+    "kind": "official",
+    "url": "https://www.tongeren-borgloon.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-sint-truiden",
+    "name": "Saint-Trond · activités",
+    "kind": "official",
+    "url": "https://www.sint-truiden.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-lier",
+    "name": "Ville de Lierre · activités",
+    "kind": "official",
+    "url": "https://www.lier.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-geel",
+    "name": "Ville de Geel · activités",
+    "kind": "official",
+    "url": "https://www.geel.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-mol",
+    "name": "Commune de Mol · activités",
+    "kind": "official",
+    "url": "https://www.gemeentemol.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-herentals",
+    "name": "Ville de Herentals · activités",
+    "kind": "official",
+    "url": "https://www.herentals.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-brasschaat",
+    "name": "Brasschaat · activités",
+    "kind": "official",
+    "url": "https://www.brasschaat.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-dendermonde",
+    "name": "Termonde · activités",
+    "kind": "official",
+    "url": "https://www.dendermonde.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-lokeren",
+    "name": "Lokeren · activités",
+    "kind": "official",
+    "url": "https://www.lokeren.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-deinze",
+    "name": "Deinze · activités",
+    "kind": "official",
+    "url": "https://www.deinze.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-oudenaarde",
+    "name": "Audenarde · activités",
+    "kind": "official",
+    "url": "https://www.oudenaarde.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-ninove",
+    "name": "Ninove · activités",
+    "kind": "official",
+    "url": "https://www.ninove.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-geraardsbergen",
+    "name": "Grammont · activités",
+    "kind": "official",
+    "url": "https://www.geraardsbergen.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-waregem",
+    "name": "Waregem · activités",
+    "kind": "official",
+    "url": "https://www.waregem.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-knokke",
+    "name": "Knokke-Heist · agenda",
+    "kind": "official",
+    "url": "https://www.knokke-heist.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-blankenberge",
+    "name": "Blankenberge · activités",
+    "kind": "official",
+    "url": "https://www.blankenberge.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-middelkerke",
+    "name": "Middelkerke · activités",
+    "kind": "official",
+    "url": "https://www.middelkerke.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-koksijde",
+    "name": "Koksijde · agenda",
+    "kind": "official",
+    "url": "https://www.koksijde.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-veurne",
+    "name": "Furnes · activités",
+    "kind": "official",
+    "url": "https://www.veurne.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-poperinge",
+    "name": "Poperinge · activités",
+    "kind": "official",
+    "url": "https://www.poperinge.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-aarschot",
+    "name": "Aarschot · activités",
+    "kind": "official",
+    "url": "https://www.aarschot.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-halle",
+    "name": "Hal · activités",
+    "kind": "official",
+    "url": "https://www.halle.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-zaventem",
+    "name": "Zaventem · activités",
+    "kind": "official",
+    "url": "https://www.zaventem.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-asse",
+    "name": "Asse · activités",
+    "kind": "official",
+    "url": "https://www.asse.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-beringen",
+    "name": "Beringen · activités",
+    "kind": "official",
+    "url": "https://www.beringen.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-lommel",
+    "name": "Lommel · activités",
+    "kind": "official",
+    "url": "https://www.lommel.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-maasmechelen",
+    "name": "Maasmechelen · activités",
+    "kind": "official",
+    "url": "https://www.maasmechelen.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "visit-mechelen-calendar",
+    "name": "Visit Mechelen · agenda",
+    "kind": "official",
+    "url": "https://visit.mechelen.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "visit-gent-calendar",
+    "name": "Visit Gent · calendrier",
+    "kind": "official",
+    "url": "https://visit.gent.be/en/calendar",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "visit-leuven-calendar",
+    "name": "Visit Leuven · calendrier",
+    "kind": "official",
+    "url": "https://www.visitleuven.be/en/calendar",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "visit-kortrijk",
+    "name": "Visit Kortrijk · agenda",
+    "kind": "official",
+    "url": "https://www.visitkortrijk.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "visit-oostende-calendar",
+    "name": "Visit Oostende · agenda",
+    "kind": "official",
+    "url": "https://www.visitoostende.be/en/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "visit-bruges-calendar",
+    "name": "Visit Bruges · agenda",
+    "kind": "official",
+    "url": "https://www.visitbruges.be/en/whats-on",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "toerisme-limburg",
+    "name": "Toerisme Limburg · événements",
+    "kind": "official",
+    "url": "https://www.visitlimburg.be/en/what-to-do/events",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "visit-kempen",
+    "name": "Visit Kempen · événements",
+    "kind": "official",
+    "url": "https://www.kempen.be/activiteiten",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "westtoer-events",
+    "name": "Westtoer · événements",
+    "kind": "official",
+    "url": "https://www.visitwestvlaanderen.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "dekust-events",
+    "name": "Le Littoral · événements",
+    "kind": "official",
+    "url": "https://www.dekust.be/fr/evenements",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-liege",
+    "name": "Ville de Liège · agenda",
+    "kind": "official",
+    "url": "https://www.liege.be/fr/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-verviers",
+    "name": "Ville de Verviers · agenda",
+    "kind": "official",
+    "url": "https://www.verviers.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-huy",
+    "name": "Ville de Huy · agenda",
+    "kind": "official",
+    "url": "https://www.huy.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-spa",
+    "name": "Ville de Spa · agenda",
+    "kind": "official",
+    "url": "https://www.spa.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-namur",
+    "name": "Ville de Namur · agenda",
+    "kind": "official",
+    "url": "https://www.namur.be/fr/loisirs/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-dinant",
+    "name": "Ville de Dinant · agenda",
+    "kind": "official",
+    "url": "https://www.dinant.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-gembloux",
+    "name": "Ville de Gembloux · agenda",
+    "kind": "official",
+    "url": "https://www.gembloux.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-mons",
+    "name": "Ville de Mons · agenda",
+    "kind": "official",
+    "url": "https://www.mons.be/fr/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-tournai",
+    "name": "Ville de Tournai · agenda",
+    "kind": "official",
+    "url": "https://www.tournai.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-lalouviere",
+    "name": "Ville de La Louvière · agenda",
+    "kind": "official",
+    "url": "https://www.lalouviere.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-ath",
+    "name": "Ville d’Ath · agenda",
+    "kind": "official",
+    "url": "https://www.ath.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-mouscron",
+    "name": "Ville de Mouscron · agenda",
+    "kind": "official",
+    "url": "https://www.mouscron.be/fr/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-wavre",
+    "name": "Ville de Wavre · agenda",
+    "kind": "official",
+    "url": "https://www.wavre.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-nivelles",
+    "name": "Ville de Nivelles · agenda",
+    "kind": "official",
+    "url": "https://www.nivelles.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-waterloo",
+    "name": "Commune de Waterloo · agenda",
+    "kind": "official",
+    "url": "https://www.waterloo.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-ottignies",
+    "name": "Ottignies-Louvain-la-Neuve · agenda",
+    "kind": "official",
+    "url": "https://www.olln.be/fr/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-arlon",
+    "name": "Ville d’Arlon · agenda",
+    "kind": "official",
+    "url": "https://www.arlon.be/loisirs/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-bastogne",
+    "name": "Ville de Bastogne · agenda",
+    "kind": "official",
+    "url": "https://www.bastogne.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-durbuy",
+    "name": "Durbuy Tourisme · agenda",
+    "kind": "official",
+    "url": "https://www.durbuytourisme.be/agenda/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-bouillon",
+    "name": "Bouillon · agenda",
+    "kind": "official",
+    "url": "https://www.bouilloninitiative.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-rochefort",
+    "name": "Rochefort · agenda",
+    "kind": "official",
+    "url": "https://www.rochefort.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-ciney",
+    "name": "Ciney · agenda",
+    "kind": "official",
+    "url": "https://www.ciney.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-andenne",
+    "name": "Andenne · agenda",
+    "kind": "official",
+    "url": "https://www.andenne.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-couvin",
+    "name": "Couvin · agenda",
+    "kind": "official",
+    "url": "https://www.couvin.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-philippeville",
+    "name": "Philippeville · agenda",
+    "kind": "official",
+    "url": "https://www.philippeville.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-sambreville",
+    "name": "Sambreville · agenda",
+    "kind": "official",
+    "url": "https://www.sambreville.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-eupen",
+    "name": "Eupen · Veranstaltungen",
+    "kind": "official",
+    "url": "https://www.eupen.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-st-vith",
+    "name": "Saint-Vith · Veranstaltungen",
+    "kind": "official",
+    "url": "https://www.st.vith.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-stavelot",
+    "name": "Stavelot · agenda",
+    "kind": "official",
+    "url": "https://www.stavelot.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-virton",
+    "name": "Virton · agenda",
+    "kind": "official",
+    "url": "https://www.virton.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-libramont",
+    "name": "Libramont-Chevigny · agenda",
+    "kind": "official",
+    "url": "https://www.libramontchevigny.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "city-neufchateau",
+    "name": "Neufchâteau · agenda",
+    "kind": "official",
+    "url": "https://www.neufchateau.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "explore-hainaut",
+    "name": "Visit Hainaut · événements",
+    "kind": "official",
+    "url": "https://www.visithainaut.be/agenda/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "visit-charleroi-calendar",
+    "name": "Visit Charleroi · agenda",
+    "kind": "official",
+    "url": "https://www.cm-tourisme.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "visit-liege-calendar",
+    "name": "Visit Liège · agenda",
+    "kind": "official",
+    "url": "https://www.visitezliege.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "pays-herve",
+    "name": "Maison du Tourisme du Pays de Herve · agenda",
+    "kind": "official",
+    "url": "https://www.paysdeherve.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "terres-meuse",
+    "name": "Terres-de-Meuse · agenda",
+    "kind": "official",
+    "url": "https://www.terres-de-meuse.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "ourthe-vesdre-ambleve",
+    "name": "Ourthe-Vesdre-Amblève · agenda",
+    "kind": "official",
+    "url": "https://www.ovatourisme.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "spa-hautes-fagnes",
+    "name": "Spa Hautes Fagnes Ardennes · agenda",
+    "kind": "official",
+    "url": "https://www.spa-hautesfagnes.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "visit-dinant",
+    "name": "Explore Meuse · Dinant",
+    "kind": "official",
+    "url": "https://www.exploremeuse.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "coeur-hainaut",
+    "name": "Cœur du Hainaut · agenda",
+    "kind": "official",
+    "url": "https://www.coeurduhainaut.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "wallonie-picarde",
+    "name": "Visit Wapi · agenda",
+    "kind": "official",
+    "url": "https://www.visitwapi.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "gaume-events",
+    "name": "Maison du Tourisme de Gaume · agenda",
+    "kind": "official",
+    "url": "https://www.visitgaume.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "foret-anlier",
+    "name": "Forêt d’Anlier · agenda",
+    "kind": "official",
+    "url": "https://www.foret-anlier-tourisme.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "triangel-stvith",
+    "name": "Triangel Saint-Vith · événements",
+    "kind": "venue",
+    "url": "https://www.triangel.com/evenements/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "desingel",
+    "name": "deSingel · programme",
+    "kind": "venue",
+    "url": "https://desingel.be/fr/programma",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "arenberg-antwerp",
+    "name": "Arenberg Antwerpen · programme",
+    "kind": "venue",
+    "url": "https://www.arenbergschouwburg.be/programma",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "sportpaleis",
+    "name": "Sportpaleis · calendrier",
+    "kind": "venue",
+    "url": "https://www.sportpaleis.be/fr/calendrier",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "lotto-arena",
+    "name": "Lotto Arena · calendrier",
+    "kind": "venue",
+    "url": "https://www.lotto-arena.be/fr/calendrier",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "trix-antwerp",
+    "name": "Trix Antwerpen · programme",
+    "kind": "venue",
+    "url": "https://www.trixonline.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "de-roma",
+    "name": "De Roma · programme",
+    "kind": "venue",
+    "url": "https://www.deroma.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "kavka",
+    "name": "Kavka · programme",
+    "kind": "venue",
+    "url": "https://www.kavka.be/programma",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "amuz",
+    "name": "AMUZ · agenda",
+    "kind": "venue",
+    "url": "https://amuz.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "rataplan",
+    "name": "Rataplan · agenda",
+    "kind": "venue",
+    "url": "https://rataplanvzw.be/agenda/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "opera-ballet",
+    "name": "Opera Ballet Vlaanderen · calendrier",
+    "kind": "culture",
+    "url": "https://www.operaballet.be/fr/calendrier",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "mas-antwerp",
+    "name": "MAS · activités",
+    "kind": "culture",
+    "url": "https://mas.be/fr/activites",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "fomu",
+    "name": "FOMU · calendrier",
+    "kind": "culture",
+    "url": "https://fomu.be/fr/calendrier",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "muhka",
+    "name": "M HKA · agenda",
+    "kind": "culture",
+    "url": "https://www.muhka.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "red-star-line",
+    "name": "Red Star Line Museum · activités",
+    "kind": "culture",
+    "url": "https://redstarline.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "viernulvier",
+    "name": "VIERNULVIER · agenda",
+    "kind": "venue",
+    "url": "https://www.viernulvier.gent/nl/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "capitole-ghent",
+    "name": "Capitole Gent · calendrier",
+    "kind": "venue",
+    "url": "https://www.capitolegent.be/fr/calendrier",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "handelsbeurs",
+    "name": "Handelsbeurs · agenda",
+    "kind": "venue",
+    "url": "https://www.handelsbeurs.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "de-centrale",
+    "name": "De Centrale · agenda",
+    "kind": "venue",
+    "url": "https://www.decentrale.be/nl/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "bijloke",
+    "name": "De Bijloke · agenda",
+    "kind": "venue",
+    "url": "https://www.bijloke.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "ntgent",
+    "name": "NTGent · programme",
+    "kind": "venue",
+    "url": "https://www.ntgent.be/fr/programme",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "smak",
+    "name": "S.M.A.K. · agenda",
+    "kind": "culture",
+    "url": "https://smak.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "msk-ghent",
+    "name": "MSK Gent · agenda",
+    "kind": "culture",
+    "url": "https://www.mskgent.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "flanders-expo",
+    "name": "Flanders Expo · calendrier",
+    "kind": "venue",
+    "url": "https://www.flandersexpo.be/fr/calendrier",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "concertgebouw-brugge",
+    "name": "Concertgebouw Brugge · agenda",
+    "kind": "venue",
+    "url": "https://www.concertgebouw.be/fr/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "cactus",
+    "name": "Cactus Muziekcentrum · calendrier",
+    "kind": "venue",
+    "url": "https://www.cactusmusic.be/nl/kalender",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "cc-brugge",
+    "name": "Cultuurcentrum Brugge · agenda",
+    "kind": "venue",
+    "url": "https://www.ccbrugge.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "kursaal-oostende",
+    "name": "Kursaal Oostende · calendrier",
+    "kind": "venue",
+    "url": "https://www.kursaaloostende.be/fr/calendrier",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "grote-post",
+    "name": "De Grote Post · agenda",
+    "kind": "venue",
+    "url": "https://www.degrotepost.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "muzee",
+    "name": "Mu.ZEE · agenda",
+    "kind": "culture",
+    "url": "https://www.muzee.be/fr/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "wilde-westen",
+    "name": "Wilde Westen · agenda",
+    "kind": "venue",
+    "url": "https://www.wildewesten.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "schouwburg-kortrijk",
+    "name": "Schouwburg Kortrijk · agenda",
+    "kind": "venue",
+    "url": "https://www.schouwburgkortrijk.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "buda-kortrijk",
+    "name": "BUDA Kunstencentrum · agenda",
+    "kind": "venue",
+    "url": "https://www.budakortrijk.be/nl/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "kortrijk-xpo",
+    "name": "Kortrijk Xpo · agenda",
+    "kind": "venue",
+    "url": "https://www.kortrijkxpo.com/agenda/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "de-spil",
+    "name": "De Spil Roeselare · agenda",
+    "kind": "venue",
+    "url": "https://www.despil.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "het-perron",
+    "name": "Het Perron Ieper · agenda",
+    "kind": "venue",
+    "url": "https://www.hetperron.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "30cc",
+    "name": "30CC Leuven · agenda",
+    "kind": "venue",
+    "url": "https://www.30cc.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "het-depot",
+    "name": "Het Depot · agenda",
+    "kind": "venue",
+    "url": "https://www.hetdepot.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "stuk",
+    "name": "STUK · programme",
+    "kind": "venue",
+    "url": "https://www.stuk.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "opek",
+    "name": "OPEK · agenda",
+    "kind": "venue",
+    "url": "https://www.opek.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "m-leuven",
+    "name": "M Leuven · agenda",
+    "kind": "culture",
+    "url": "https://www.mleuven.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "ccha",
+    "name": "CCHA Hasselt · programme",
+    "kind": "venue",
+    "url": "https://www.ccha.be/programma",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "trixxo-theater",
+    "name": "Trixxo Theater · calendrier",
+    "kind": "venue",
+    "url": "https://www.trixxo-theater.be/fr/calendrier",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "c-mine",
+    "name": "C-mine · agenda",
+    "kind": "culture",
+    "url": "https://www.c-mine.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "cc-genk",
+    "name": "Cultuurcentrum Genk · agenda",
+    "kind": "venue",
+    "url": "https://www.cultuurcentrumgenk.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "z33",
+    "name": "Z33 · agenda",
+    "kind": "culture",
+    "url": "https://www.z33.be/agenda/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "bokrijk",
+    "name": "Bokrijk · calendrier",
+    "kind": "culture",
+    "url": "https://bokrijk.be/fr/calendrier",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "alden-biesen",
+    "name": "Alden Biesen · calendrier",
+    "kind": "culture",
+    "url": "https://www.alden-biesen.be/kalender",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "theatre-liege",
+    "name": "Théâtre de Liège · agenda",
+    "kind": "venue",
+    "url": "https://theatredeliege.be/agenda/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "opera-liege",
+    "name": "Opéra Royal de Wallonie · agenda",
+    "kind": "venue",
+    "url": "https://www.operaliege.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "forum-liege",
+    "name": "Le Forum de Liège · agenda",
+    "kind": "venue",
+    "url": "https://www.leforum.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "reflektor",
+    "name": "Reflektor · agenda",
+    "kind": "venue",
+    "url": "https://www.reflektor.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "chiroux",
+    "name": "Les Chiroux · agenda",
+    "kind": "venue",
+    "url": "https://chiroux.be/agenda/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "grignoux",
+    "name": "Les Grignoux · événements",
+    "kind": "culture",
+    "url": "https://www.grignoux.be/fr/evenements",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "laboverie",
+    "name": "La Boverie · agenda",
+    "kind": "culture",
+    "url": "https://www.laboverie.com/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "delta-namur",
+    "name": "Le Delta · agenda",
+    "kind": "venue",
+    "url": "https://www.ledelta.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "theatre-namur",
+    "name": "Théâtre de Namur · agenda",
+    "kind": "venue",
+    "url": "https://www.theatredenamur.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "grand-manege",
+    "name": "Grand Manège Namur · agenda",
+    "kind": "venue",
+    "url": "https://grandmanege.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "namur-expo",
+    "name": "Namur Expo · agenda",
+    "kind": "venue",
+    "url": "https://www.namurexpo.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "pba-charleroi",
+    "name": "Palais des Beaux-Arts Charleroi · agenda",
+    "kind": "venue",
+    "url": "https://www.pba-charleroi.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "eden-charleroi",
+    "name": "Eden Charleroi · agenda",
+    "kind": "venue",
+    "url": "https://www.eden-charleroi.be/agenda/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "rockerill",
+    "name": "Rockerill · événements",
+    "kind": "venue",
+    "url": "https://www.rockerill.com/events/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "vecteur",
+    "name": "Le Vecteur · agenda",
+    "kind": "venue",
+    "url": "https://www.vecteur.be/agenda/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "quai10",
+    "name": "Quai10 · événements",
+    "kind": "culture",
+    "url": "https://www.quai10.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "bps22",
+    "name": "BPS22 · agenda",
+    "kind": "culture",
+    "url": "https://www.bps22.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "ancre",
+    "name": "L’Ancre · agenda",
+    "kind": "venue",
+    "url": "https://www.ancre.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "mars-mons",
+    "name": "MARS Mons · agenda",
+    "kind": "venue",
+    "url": "https://surmars.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "arsonic",
+    "name": "Arsonic · programme",
+    "kind": "venue",
+    "url": "https://surmars.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "central-lalouviere",
+    "name": "Central La Louvière · agenda",
+    "kind": "venue",
+    "url": "https://www.cestcentral.be/agenda/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "keramis",
+    "name": "Keramis · agenda",
+    "kind": "culture",
+    "url": "https://www.keramis.be/agenda/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "mc-ath",
+    "name": "Maison Culturelle d’Ath · agenda",
+    "kind": "venue",
+    "url": "https://mcath.be/agenda/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "mc-tournai",
+    "name": "Maison de la Culture de Tournai · agenda",
+    "kind": "venue",
+    "url": "https://maisonculturetournai.com/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "ccmouscron",
+    "name": "Centre Culturel de Mouscron · agenda",
+    "kind": "venue",
+    "url": "https://www.centrecultureldemouscron.be/agenda/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "aula-magna",
+    "name": "Aula Magna · agenda",
+    "kind": "venue",
+    "url": "https://www.aulamagna.be/agenda/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "ferme-biereau",
+    "name": "Ferme du Biéreau · agenda",
+    "kind": "venue",
+    "url": "https://www.fermedubiereau.be/agenda/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "atjv",
+    "name": "Atelier Théâtre Jean Vilar",
+    "kind": "venue",
+    "url": "https://www.atjv.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "spott",
+    "name": "SPOTT Ottignies · agenda",
+    "kind": "venue",
+    "url": "https://www.spott.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "abbaye-villers",
+    "name": "Abbaye de Villers · agenda",
+    "kind": "culture",
+    "url": "https://villers.be/fr/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "folon",
+    "name": "Fondation Folon · agenda",
+    "kind": "culture",
+    "url": "https://fondationfolon.be/agenda/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "musee-l",
+    "name": "Musée L · agenda",
+    "kind": "culture",
+    "url": "https://museel.be/fr/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "maison-culture-arlon",
+    "name": "Maison de la Culture d’Arlon · agenda",
+    "kind": "venue",
+    "url": "https://www.maison-culture-arlon.be/agenda/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "espace-bastogne",
+    "name": "Espace Culturel de Bastogne · agenda",
+    "kind": "venue",
+    "url": "https://www.espaceculturel.be/agenda/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "cc-bertrix",
+    "name": "Centre Culturel de Bertrix · agenda",
+    "kind": "venue",
+    "url": "https://www.ccbertrix.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "mcfa",
+    "name": "Maison de la Culture Famenne-Ardenne · agenda",
+    "kind": "venue",
+    "url": "https://www.mcfa.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "cc-habay",
+    "name": "Centre Culturel de Habay · agenda",
+    "kind": "venue",
+    "url": "https://www.habay-culture.be/agenda/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "cc-asse",
+    "name": "CC Asse · agenda",
+    "kind": "venue",
+    "url": "https://www.ccasse.be/programma",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "cc-mechelen",
+    "name": "Cultuurcentrum Mechelen · programme",
+    "kind": "venue",
+    "url": "https://www.cultuurcentrummechelen.be/programma",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "warande",
+    "name": "de Warande Turnhout · agenda",
+    "kind": "venue",
+    "url": "https://www.warande.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "de-werf",
+    "name": "CC De Werf Aalst · agenda",
+    "kind": "venue",
+    "url": "https://www.ccdewerf.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "cc-sint-niklaas",
+    "name": "Stadsschouwburg Sint-Niklaas",
+    "kind": "venue",
+    "url": "https://www.ccsint-niklaas.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "casino-koksijde",
+    "name": "CasinoKoksijde · agenda",
+    "kind": "venue",
+    "url": "https://www.casinokoksijde.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "leietheater",
+    "name": "Leietheater Deinze · agenda",
+    "kind": "venue",
+    "url": "https://www.leietheater.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "cultuurhuis-merelbeke",
+    "name": "Cultuurhuis Merelbeke-Melle",
+    "kind": "venue",
+    "url": "https://www.cultuurhuismerelbekemelle.be/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "uantwerpen-events",
+    "name": "Université d’Anvers · événements",
+    "kind": "culture",
+    "url": "https://www.uantwerpen.be/en/events/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "ugent-events",
+    "name": "Université de Gand · événements",
+    "kind": "culture",
+    "url": "https://www.ugent.be/en/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "kul-events",
+    "name": "KU Leuven · événements",
+    "kind": "culture",
+    "url": "https://www.kuleuven.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "uhasselt-events",
+    "name": "UHasselt · événements",
+    "kind": "culture",
+    "url": "https://www.uhasselt.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "ulb-events",
+    "name": "ULB · agenda",
+    "kind": "culture",
+    "url": "https://www.ulb.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "uclouvain-events",
+    "name": "UCLouvain · agenda",
+    "kind": "culture",
+    "url": "https://uclouvain.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "uliege-events",
+    "name": "Université de Liège · agenda",
+    "kind": "culture",
+    "url": "https://www.uliege.be/cms/c_9038263/fr/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "unamur-events",
+    "name": "UNamur · agenda",
+    "kind": "culture",
+    "url": "https://www.unamur.be/fr/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "umons-events",
+    "name": "UMONS · agenda",
+    "kind": "culture",
+    "url": "https://web.umons.ac.be/fr/evenements/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "erasmushogeschool-events",
+    "name": "Erasmushogeschool Brussel",
+    "kind": "community",
+    "url": "https://www.erasmushogeschool.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "bozar-agora",
+    "name": "Bozar Agora · débats",
+    "kind": "culture",
+    "url": "https://www.bozar.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "kbr-events",
+    "name": "KBR · agenda",
+    "kind": "culture",
+    "url": "https://www.kbr.be/fr/agenda/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "belvue-events",
+    "name": "BELvue · agenda",
+    "kind": "culture",
+    "url": "https://www.belvue.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "heritage-days",
+    "name": "Journées du Patrimoine · agenda",
+    "kind": "culture",
+    "url": "https://www.journeesdupatrimoine.be/agenda/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "openmonumenten",
+    "name": "Open Monumentendag · activités",
+    "kind": "culture",
+    "url": "https://www.openmonumentendag.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "museum-night-fever",
+    "name": "Museum Night Fever",
+    "kind": "culture",
+    "url": "https://www.museumnightfever.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "museum-pass",
+    "name": "museumPASSmusées · activités",
+    "kind": "culture",
+    "url": "https://www.museumpassmusees.be/fr",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "film-fest-gent",
+    "name": "Film Fest Gent",
+    "kind": "culture",
+    "url": "https://www.filmfestival.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "briff",
+    "name": "Brussels International Film Festival",
+    "kind": "culture",
+    "url": "https://briff.be/fr/programme/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "anima",
+    "name": "Festival Anima",
+    "kind": "culture",
+    "url": "https://animafestival.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "fiff-namur",
+    "name": "FIFF Namur",
+    "kind": "culture",
+    "url": "https://www.fiff.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "dour-festival",
+    "name": "Dour Festival",
+    "kind": "culture",
+    "url": "https://www.dourfestival.eu/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "pukkelpop",
+    "name": "Pukkelpop",
+    "kind": "culture",
+    "url": "https://www.pukkelpop.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "rock-werchter",
+    "name": "Rock Werchter",
+    "kind": "culture",
+    "url": "https://www.rockwerchter.be/fr/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "tomorrowland",
+    "name": "Tomorrowland",
+    "kind": "culture",
+    "url": "https://www.tomorrowland.com/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "couleur-cafe",
+    "name": "Couleur Café",
+    "kind": "culture",
+    "url": "https://www.couleurcafe.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "les-ardentes",
+    "name": "Les Ardentes",
+    "kind": "culture",
+    "url": "https://lesardentes.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "francofolies-spa",
+    "name": "Francofolies de Spa",
+    "kind": "culture",
+    "url": "https://www.francofolies.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "esperanzah",
+    "name": "Esperanzah!",
+    "kind": "culture",
+    "url": "https://www.esperanzah.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "sfinks",
+    "name": "Sfinks Mixed",
+    "kind": "culture",
+    "url": "https://www.sfinks.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "cactus-festival",
+    "name": "Cactusfestival",
+    "kind": "culture",
+    "url": "https://www.cactusfestival.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "gentse-feesten",
+    "name": "Gentse Feesten",
+    "kind": "official",
+    "url": "https://gentsefeesten.stad.gent/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "leuven-beleeft",
+    "name": "Leuven Beleeft",
+    "kind": "official",
+    "url": "https://leuven.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "fetes-wallonie",
+    "name": "Fêtes de Wallonie",
+    "kind": "culture",
+    "url": "https://www.fetesdewallonie.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "foire-libramont",
+    "name": "Foire de Libramont",
+    "kind": "culture",
+    "url": "https://www.foiredelibramont.com/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "batibouw",
+    "name": "Batibouw",
+    "kind": "ticketing",
+    "url": "https://www.batibouw.com/fr/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "brussels-expo",
+    "name": "Brussels Expo · calendrier",
+    "kind": "venue",
+    "url": "https://www.brussels-expo.com/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "wallonia-cycling",
+    "name": "Wallonie Belgique Tourisme · vélo",
+    "kind": "community",
+    "url": "https://visitwallonia.be/fr-be/3/jaime/sports-et-loisirs/velo",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "sport-vlaanderen",
+    "name": "Sport Vlaanderen · calendrier",
+    "kind": "community",
+    "url": "https://www.sport.vlaanderen/activiteiten/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "running-be",
+    "name": "Running.be · calendrier",
+    "kind": "community",
+    "url": "https://running.be/wedstrijdkalender/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "golazo-events",
+    "name": "Golazo · événements",
+    "kind": "community",
+    "url": "https://www.golazo.com/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "rbfa-tickets",
+    "name": "Football belge · tickets et événements",
+    "kind": "ticketing",
+    "url": "https://www.rbfa.be/fr/tickets",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "songkick-belgium",
+    "name": "Songkick · Belgique",
+    "kind": "ticketing",
+    "url": "https://www.songkick.com/metro-areas/26771-belgium-brussels",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "songkick-antwerp",
+    "name": "Songkick · Anvers",
+    "kind": "ticketing",
+    "url": "https://www.songkick.com/metro-areas/26872-belgium-antwerp",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "songkick-ghent",
+    "name": "Songkick · Gand",
+    "kind": "ticketing",
+    "url": "https://www.songkick.com/metro-areas/26886-belgium-ghent",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "bandsintown-brussels",
+    "name": "Bandsintown · Bruxelles",
+    "kind": "ticketing",
+    "url": "https://www.bandsintown.com/c/brussels-belgium",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "bandsintown-antwerp",
+    "name": "Bandsintown · Anvers",
+    "kind": "ticketing",
+    "url": "https://www.bandsintown.com/c/antwerp-belgium",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "bandsintown-ghent",
+    "name": "Bandsintown · Gand",
+    "kind": "ticketing",
+    "url": "https://www.bandsintown.com/c/ghent-belgium",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "bandsintown-liege",
+    "name": "Bandsintown · Liège",
+    "kind": "ticketing",
+    "url": "https://www.bandsintown.com/c/liege-belgium",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "livenation-belgium",
+    "name": "Live Nation · tous les événements",
+    "kind": "ticketing",
+    "url": "https://www.livenation.be/event/allevents",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "ticketswap-belgium",
+    "name": "TicketSwap · Belgique",
+    "kind": "ticketing",
+    "url": "https://www.ticketswap.be/country/belgium",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "eventim-belgium",
+    "name": "Eventim Belgique",
+    "kind": "ticketing",
+    "url": "https://www.eventim.be/fr/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "sherpa",
+    "name": "Sherpa · événements",
+    "kind": "ticketing",
+    "url": "https://www.sherpa.be/fr/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "utick",
+    "name": "Utick · événements",
+    "kind": "ticketing",
+    "url": "https://www.utick.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "ticketlive",
+    "name": "TicketLive · événements",
+    "kind": "ticketing",
+    "url": "https://www.ticketlive.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "weeztix-belgium",
+    "name": "Weeztix · événements",
+    "kind": "ticketing",
+    "url": "https://weeztix.com/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "idees-sorties",
+    "name": "IdéesSorties.be · Belgique",
+    "kind": "community",
+    "url": "https://ideessorties.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "discovering-belgium",
+    "name": "Discovering Belgium · calendrier",
+    "kind": "culture",
+    "url": "https://www.discoveringbelgium.com/belgium-events-calendar/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "events-eye",
+    "name": "EventsEye · salons Belgique",
+    "kind": "ticketing",
+    "url": "https://www.eventseye.com/fairs/c1_trade-shows_belgium.html",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "conference-alert",
+    "name": "All Conference Alert · Belgique",
+    "kind": "community",
+    "url": "https://www.allconferencealert.com/belgium",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "eventseeker-belgium",
+    "name": "Eventseeker · Belgique",
+    "kind": "community",
+    "url": "https://eventseeker.com/belgium",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "visit-belgium",
+    "name": "Belgium.be · culture et loisirs",
+    "kind": "official",
+    "url": "https://www.belgium.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "facebook-expats-belgium",
+    "name": "Facebook · Expats in Belgium",
+    "kind": "social",
+    "url": "https://www.facebook.com/groups/expatsbelgium/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "facebook-expats-antwerp",
+    "name": "Facebook · New Expats in Antwerp",
+    "kind": "social",
+    "url": "https://www.facebook.com/groups/173678025989125/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "facebook-expats-ghent",
+    "name": "Facebook · Expats living & working in Ghent",
+    "kind": "social",
+    "url": "https://www.facebook.com/groups/expats.living.and.working.in.ghent/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "facebook-ghent-international",
+    "name": "Facebook · International Meeting Ghent",
+    "kind": "social",
+    "url": "https://www.facebook.com/groups/317158958920307/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "facebook-life-belgium",
+    "name": "Facebook · Life in Belgium",
+    "kind": "social",
+    "url": "https://www.facebook.com/groups/life.in.belgium/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "reddit-belgium",
+    "name": "Reddit · r/belgium",
+    "kind": "social",
+    "url": "https://www.reddit.com/r/belgium/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "reddit-antwerp",
+    "name": "Reddit · r/Antwerpen",
+    "kind": "social",
+    "url": "https://www.reddit.com/r/Antwerpen/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "reddit-ghent",
+    "name": "Reddit · r/Gent",
+    "kind": "social",
+    "url": "https://www.reddit.com/r/Gent/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "reddit-leuven",
+    "name": "Reddit · r/Leuven",
+    "kind": "social",
+    "url": "https://www.reddit.com/r/Leuven/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "reddit-liege",
+    "name": "Reddit · r/Liege",
+    "kind": "social",
+    "url": "https://www.reddit.com/r/Liege/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "reddit-charleroi",
+    "name": "Reddit · r/Charleroi",
+    "kind": "social",
+    "url": "https://www.reddit.com/r/Charleroi/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "reddit-namur",
+    "name": "Reddit · r/Namur",
+    "kind": "social",
+    "url": "https://www.reddit.com/r/Namur/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "reddit-bruges",
+    "name": "Reddit · r/Bruges",
+    "kind": "social",
+    "url": "https://www.reddit.com/r/Bruges/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "reddit-hasselt",
+    "name": "Reddit · r/Hasselt",
+    "kind": "social",
+    "url": "https://www.reddit.com/r/Hasselt/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "discord-belgium-directory",
+    "name": "Discord · communautés belges",
+    "kind": "social",
+    "url": "https://disboard.org/en/servers/tag/belgium",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "discord-antwerp-directory",
+    "name": "Discord · communautés d’Anvers",
+    "kind": "social",
+    "url": "https://disboard.org/en/servers/tag/antwerp",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "discord-ghent-directory",
+    "name": "Discord · communautés de Gand",
+    "kind": "social",
+    "url": "https://disboard.org/en/servers/tag/ghent",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "internations-belgium",
+    "name": "InterNations · Belgique",
+    "kind": "meeting",
+    "url": "https://www.internations.org/belgium-expats",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "internations-antwerp",
+    "name": "InterNations · Anvers",
+    "kind": "meeting",
+    "url": "https://www.internations.org/antwerp-expats",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "internations-ghent",
+    "name": "InterNations · Gand",
+    "kind": "meeting",
+    "url": "https://www.internations.org/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "jointly-belgium-guide",
+    "name": "Jointly · rencontres Belgique",
+    "kind": "meeting",
+    "url": "https://www.joinjointly.com/en/jointly-make-friends-guide-belgium",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "couchsurfing-belgium",
+    "name": "Couchsurfing · événements Belgique",
+    "kind": "meeting",
+    "url": "https://www.couchsurfing.com/places/europe/belgium",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "erasmus-brussels",
+    "name": "Erasmus Brussels Network",
+    "kind": "community",
+    "url": "https://www.esnbrussels.org/events",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "esn-antwerp",
+    "name": "ESN Antwerp · événements",
+    "kind": "community",
+    "url": "https://www.esnantwerp.org/events",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "esn-gent",
+    "name": "ESN Gent · événements",
+    "kind": "community",
+    "url": "https://www.esngent.org/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "esn-leuven",
+    "name": "ESN Leuven · événements",
+    "kind": "community",
+    "url": "https://www.esnleuven.be/events",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "esn-hasselt",
+    "name": "ESN Hasselt · événements",
+    "kind": "community",
+    "url": "https://www.esnhasselt.be/events",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "expatica-belgium-events",
+    "name": "Expatica Belgium · événements",
+    "kind": "community",
+    "url": "https://www.expatica.com/be/out-and-about/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "angloinfo-belgium",
+    "name": "Angloinfo Belgium · loisirs",
+    "kind": "community",
+    "url": "https://www.angloinfo.com/belgium",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "court-circuit",
+    "name": "Court-Circuit · concerts en Fédération Wallonie-Bruxelles",
+    "kind": "culture",
+    "url": "https://court-circuit.be/agenda/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "myconcerts-belgium",
+    "name": "MyConcerts · concerts Belgique",
+    "kind": "ticketing",
+    "url": "https://www.myconcerts.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "brussels-music-agenda",
+    "name": "Brussels Music Agenda · live music",
+    "kind": "culture",
+    "url": "https://brusselsmusicagenda.com/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "kids-rhythm-blues",
+    "name": "Kid’s Rhythm ’n’ Blues Kaffee · concerts",
+    "kind": "venue",
+    "url": "https://www.kidsrhythmblueskaffee.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "kellys-antwerp",
+    "name": "Kelly’s Antwerp · live & pub events",
+    "kind": "venue",
+    "url": "https://www.kellysantwerp.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "lecuyer-brussels",
+    "name": "L’Écuyer · concerts & jams",
+    "kind": "venue",
+    "url": "https://www.facebook.com/lecuyerbrussels/events",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "cheval-marin",
+    "name": "Le Cheval Marin · concerts",
+    "kind": "venue",
+    "url": "https://www.lechevalmarin.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "flak-bar",
+    "name": "FLAK Bar · concerts",
+    "kind": "venue",
+    "url": "https://www.flakbar.be/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "archiduc",
+    "name": "L’Archiduc · jazz & live",
+    "kind": "venue",
+    "url": "https://www.archiduc.net/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "brussels-rhythm-blues",
+    "name": "Brussels Rhythm & Blues Club",
+    "kind": "venue",
+    "url": "https://www.brusselsrhythmandbluesclub.com/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "celtica-brussels",
+    "name": "Celtica Brussels · live music",
+    "kind": "venue",
+    "url": "https://www.celticbrussels.com/",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "oprl-agenda",
+    "name": "Orchestre Philharmonique Royal de Liège · agenda",
+    "kind": "venue",
+    "url": "https://www.oprl.be/fr/agenda",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "discord-brussels-directory",
+    "name": "Discord public · Bruxelles",
+    "kind": "social",
+    "url": "https://disboard.org/en/servers/tag/brussels",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "discord-leuven-directory",
+    "name": "Discord public · Louvain",
+    "kind": "social",
+    "url": "https://disboard.org/en/servers/tag/leuven",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "discord-liege-directory",
+    "name": "Discord public · Liège",
+    "kind": "social",
+    "url": "https://disboard.org/en/servers/tag/liege",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "discord-wallonia-directory",
+    "name": "Discord public · Wallonie",
+    "kind": "social",
+    "url": "https://disboard.org/en/servers/tag/wallonia",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "discord-vlaanderen-directory",
+    "name": "Discord public · Vlaanderen",
+    "kind": "social",
+    "url": "https://disboard.org/en/servers/tag/vlaanderen",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "discord-music-directory",
+    "name": "Discord public · musique",
+    "kind": "social",
+    "url": "https://disboard.org/en/servers/tag/music",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "discord-concerts-directory",
+    "name": "Discord public · concerts",
+    "kind": "social",
+    "url": "https://disboard.org/en/servers/tag/concerts",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "discord-nightlife-directory",
+    "name": "Discord public · nightlife",
+    "kind": "social",
+    "url": "https://disboard.org/en/servers/tag/nightlife",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "discord-meetup-directory",
+    "name": "Discord public · meetup",
+    "kind": "social",
+    "url": "https://disboard.org/en/servers/tag/meetup",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "discord-expats-directory",
+    "name": "Discord public · expats",
+    "kind": "social",
+    "url": "https://disboard.org/en/servers/tag/expats",
+    "format": "public",
+    "access": "public"
+  },
+  {
+    "id": "timeleft-belgium",
+    "name": "Timeleft · Belgique",
+    "kind": "meeting",
+    "url": "https://timeleft.com/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "socializus-belgium",
+    "name": "Socializus · Belgique",
+    "kind": "meeting",
+    "url": "https://socializus.com/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "woohapp-belgium",
+    "name": "WOOH · sorties",
+    "kind": "meeting",
+    "url": "https://www.wooh.app/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "nextdoor-belgium",
+    "name": "Nextdoor · voisinage Belgique",
+    "kind": "social",
+    "url": "https://nextdoor.com/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "strava-belgium",
+    "name": "Strava · clubs belges",
+    "kind": "social",
+    "url": "https://www.strava.com/clubs/search?text=Belgium",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "facebook-events-belgium",
+    "name": "Facebook Events · Belgique",
+    "kind": "social",
+    "url": "https://www.facebook.com/events/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "instagram-belgium-events",
+    "name": "Instagram · événements Belgique",
+    "kind": "social",
+    "url": "https://www.instagram.com/explore/tags/belgiumevents/",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "tiktok-belgium-events",
+    "name": "TikTok · événements Belgique",
+    "kind": "social",
+    "url": "https://www.tiktok.com/tag/belgiumevents",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "telegram-belgium-search",
+    "name": "Telegram · communautés Belgique",
+    "kind": "social",
+    "url": "https://t.me/s/belgium",
+    "format": "protected",
+    "access": "protected"
+  },
+  {
+    "id": "eventbrite-organizer-app",
+    "name": "Eventbrite Organizer",
+    "kind": "ticketing",
+    "url": "https://www.eventbrite.be/organizer/overview/",
+    "format": "protected",
+    "access": "protected"
+  }
+]

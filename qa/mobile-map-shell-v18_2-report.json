@@ -1,0 +1,77 @@
+{
+  "total": 14,
+  "passed": 14,
+  "failed": 0,
+  "results": [
+    {
+      "name": "mobile map fits viewport",
+      "pass": true,
+      "detail": "{\"hero\": {\"top\": 0, \"bottom\": 1162.390625, \"left\": 0, \"right\": 390, \"width\": 390, \"height\": 1162.390625}, \"map\": {\"top\": 698.390625, \"bottom\": 1138.390625, \"left\": 10, \"right\": 380, \"width\": 370, \"height\": 440}, \"agenda\": {\"top\": 1162.390625, \"bottom\": 2291.984375, \"left\": 0, \"right\": 390, \"width\": 390, \"height\": 1129.59375}, \"dock\": {\"top\": 776, \"bottom\": 844, \"left\": 0, \"right\": 390, \"width\": 390, \"height\": 68}, \"vw\": 390, \"vh\": 844, \"sw\": 390}"
+    },
+    {
+      "name": "map fully precedes agenda (not clipped/covered)",
+      "pass": true,
+      "detail": "{\"hero\": {\"top\": 0, \"bottom\": 1162.390625, \"left\": 0, \"right\": 390, \"width\": 390, \"height\": 1162.390625}, \"map\": {\"top\": 698.390625, \"bottom\": 1138.390625, \"left\": 10, \"right\": 380, \"width\": 370, \"height\": 440}, \"agenda\": {\"top\": 1162.390625, \"bottom\": 2291.984375, \"left\": 0, \"right\": 390, \"width\": 390, \"height\": 1129.59375}, \"dock\": {\"top\": 776, \"bottom\": 844, \"left\": 0, \"right\": 390, \"width\": 390, \"height\": 68}, \"vw\": 390, \"vh\": 844, \"sw\": 390}"
+    },
+    {
+      "name": "mobile dock fixed flush to viewport bottom",
+      "pass": true,
+      "detail": "{\"hero\": {\"top\": 0, \"bottom\": 1162.390625, \"left\": 0, \"right\": 390, \"width\": 390, \"height\": 1162.390625}, \"map\": {\"top\": 698.390625, \"bottom\": 1138.390625, \"left\": 10, \"right\": 380, \"width\": 370, \"height\": 440}, \"agenda\": {\"top\": 1162.390625, \"bottom\": 2291.984375, \"left\": 0, \"right\": 390, \"width\": 390, \"height\": 1129.59375}, \"dock\": {\"top\": 776, \"bottom\": 844, \"left\": 0, \"right\": 390, \"width\": 390, \"height\": 68}, \"vw\": 390, \"vh\": 844, \"sw\": 390}"
+    },
+    {
+      "name": "mobile shell has no global horizontal overflow",
+      "pass": true,
+      "detail": "{\"hero\": {\"top\": 0, \"bottom\": 1162.390625, \"left\": 0, \"right\": 390, \"width\": 390, \"height\": 1162.390625}, \"map\": {\"top\": 698.390625, \"bottom\": 1138.390625, \"left\": 10, \"right\": 380, \"width\": 370, \"height\": 440}, \"agenda\": {\"top\": 1162.390625, \"bottom\": 2291.984375, \"left\": 0, \"right\": 390, \"width\": 390, \"height\": 1129.59375}, \"dock\": {\"top\": 776, \"bottom\": 844, \"left\": 0, \"right\": 390, \"width\": 390, \"height\": 68}, \"vw\": 390, \"vh\": 844, \"sw\": 390}"
+    },
+    {
+      "name": "real map reaches ready state",
+      "pass": true,
+      "detail": "{\"ready\": true, \"canvas\": true, \"oldMarkers\": 1, \"realMarkers\": 1, \"coords\": [[4.351702, 50.8637762]], \"fitCalls\": 0}"
+    },
+    {
+      "name": "real map canvas inserted",
+      "pass": true,
+      "detail": "{\"ready\": true, \"canvas\": true, \"oldMarkers\": 1, \"realMarkers\": 1, \"coords\": [[4.351702, 50.8637762]], \"fitCalls\": 0}"
+    },
+    {
+      "name": "real map mirrors filtered React markers",
+      "pass": true,
+      "detail": "{\"ready\": true, \"canvas\": true, \"oldMarkers\": 1, \"realMarkers\": 1, \"coords\": [[4.351702, 50.8637762]], \"fitCalls\": 0}"
+    },
+    {
+      "name": "converted markers stay inside Belgian geographic envelope",
+      "pass": true,
+      "detail": "[[4.351702, 50.8637762]]"
+    },
+    {
+      "name": "map auto-fits visible filtered markers",
+      "pass": true,
+      "detail": "{\"ready\": true, \"canvas\": true, \"oldMarkers\": 1, \"realMarkers\": 1, \"coords\": [[4.351702, 50.8637762]], \"fitCalls\": 0}"
+    },
+    {
+      "name": "real map marker delegates to original event open action",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "real map fills entire map panel",
+      "pass": true,
+      "detail": "{\"panel\": {\"w\": 370, \"h\": 440}, \"canvas\": {\"w\": 368, \"h\": 438}, \"tilesDisplay\": \"none\"}"
+    },
+    {
+      "name": "legacy tile mosaic hidden only after real map is ready",
+      "pass": true,
+      "detail": "{\"panel\": {\"w\": 370, \"h\": 440}, \"canvas\": {\"w\": 368, \"h\": 438}, \"tilesDisplay\": \"none\"}"
+    },
+    {
+      "name": "event action bar starts at viewport bottom",
+      "pass": true,
+      "detail": "{\"top\": 762, \"bottom\": 844, \"height\": 82, \"vh\": 844}"
+    },
+    {
+      "name": "event action bar stays fixed after drawer scroll",
+      "pass": true,
+      "detail": "{\"before\": {\"top\": 762, \"bottom\": 844, \"height\": 82, \"vh\": 844}, \"after\": {\"top\": 762, \"bottom\": 844, \"height\": 82, \"vh\": 844}}"
+    }
+  ]
+}
