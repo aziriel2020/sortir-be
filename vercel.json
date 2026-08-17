@@ -7,8 +7,32 @@
     "cdg1"
   ],
   "functions": {
-    "api/*.js": {
+    "api/live.js": {
+      "maxDuration": 300,
+      "includeFiles": [
+        "collector/**",
+        "config/sources.generated.json",
+        "public/events-snapshot.json"
+      ]
+    },
+    "api/events.js": {
+      "maxDuration": 15,
+      "includeFiles": [
+        "public/events-snapshot.json"
+      ]
+    },
+    "api/event-photos.js": {
       "maxDuration": 15
+    },
+    "api/picture.js": {
+      "maxDuration": 15
+    },
+    "api/health.js": {
+      "maxDuration": 15,
+      "includeFiles": [
+        "public/events-snapshot.json",
+        "public/collector-status.json"
+      ]
     }
   },
   "rewrites": [],

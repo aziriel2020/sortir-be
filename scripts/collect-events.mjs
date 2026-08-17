@@ -57,7 +57,7 @@ const stats={
   protectedSources:all.filter(s=>s.access==='protected').length,
   durationMs:Date.now()-started,
   collectorMode:mode,
-  collectorVersion:'18.3.0',
+  collectorVersion:'18.4.0',
 };
 const attemptedAt=new Date().toISOString();
 const scanIsFresh=fresh.length>=8 && productive.length>=4;
@@ -69,3 +69,7 @@ const payload={generatedAt,events:merged,stats};
 fs.writeFileSync(outPath,JSON.stringify(payload,null,2)+'\n');
 fs.writeFileSync(statusPath,JSON.stringify({generatedAt:payload.generatedAt,collectorAttemptedAt:attemptedAt,scanAccepted:scanIsFresh,mode,stats,sources:results.map(r=>({id:r.source.id,name:r.source.name,ok:r.ok,reachable:r.reachable,events:r.events.length,pages:r.pages,error:r.error,rateLimited:r.rateLimited}))},null,2)+'\n');
 console.log(JSON.stringify({generatedAt:payload.generatedAt,events:merged.length,stats},null,2));
+if(!scanIsFresh){
+  console.error(`COLLECTOR_REJECTED: productive=${productive.length}, rawEvents=${fresh.length}. Keeping previous generatedAt=${payload.generatedAt}`);
+  process.exitCode=2;
+}
