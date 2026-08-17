@@ -11,7 +11,7 @@ fs.mkdirSync(out, { recursive: true });
 
 function copyDir(from, to, rel = '') {
   for (const entry of fs.readdirSync(from, { withFileTypes: true })) {
-    // /api is provided by Vercel Functions / rewrites, not static output.
+    // /api is provided by Vercel Functions, not static output.
     if (!rel && (entry.name === 'api' || entry.name === '_snapshot')) continue;
     const srcPath = path.join(from, entry.name);
     const dstPath = path.join(to, entry.name);

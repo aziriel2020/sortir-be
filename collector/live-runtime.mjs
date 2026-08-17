@@ -1,42 +1,25 @@
-import fs from 'node:fs';
 import {collectSource,dedupe,loadSources,pool} from './core.mjs';
-
-function futureEvents(payload){
-  const now=Date.now();
-  return (payload?.events||[]).filter(e=>{
-    const end=Date.parse(e.end||e.start||0);
-    return Number.isFinite(end)&&end>=now-36*3600_000;
-  });
-}
 
 export function loadDirectSources(path=process.env.SORTIR_SOURCE_CONFIG||'config/sources.generated.json'){
   return loadSources(path).filter(s=>s.access==='direct');
 }
 
-
-export async function runLiveScan(previous,{sources=null,concurrency=12,mode='vercel-live'}={}){
+export async function runLiveScan(_previousIgnored,{sources=null,concurrency=12,mode='vercel-live'}={}){
   const started=Date.now();
   const all=sources||loadDirectSources();
   const results=await pool(all,concurrency,async source=>{
     try{return await collectSource(source,{deep:false});}
     catch(error){return {source,events:[],ok:false,reachable:false,pages:0,rateLimited:false,error:error?.message||String(error)};}
   });
-
   const freshEvents=results.flatMap(r=>r.events||[]);
-  const prior=futureEvents(previous);
-  const merged=dedupe([...freshEvents,...prior]);
+  const events=dedupe(freshEvents);
   const successful=results.filter(r=>r.ok);
   const productive=successful.filter(r=>(r.events||[]).length>0);
   const attemptedAt=new Date().toISOString();
-  const previousProductive=Number(previous?.stats?.productiveSources??previous?.stats?.successfulSources??0);
-  const minProductive=previousProductive>0
-    ? Math.max(4,Math.min(all.length,Math.ceil(previousProductive*0.60)))
-    : 4;
-  const accepted=freshEvents.length>=8&&productive.length>=minProductive;
-
-  const baseStats=previous?.stats||{};
-  const scanStats={
-    registeredSources:baseStats.registeredSources??623,
+  const minProductive=Math.max(4,Math.min(all.length,Math.ceil(all.length*0.04)));
+  const accepted=events.length>=8&&productive.length>=minProductive;
+  const stats={
+    registeredSources:loadSources().length,
     automaticSources:all.length,
     reachableSources:results.filter(r=>r.reachable).length,
     productiveSources:productive.length,
@@ -45,54 +28,24 @@ export async function runLiveScan(previous,{sources=null,concurrency=12,mode='ve
     rateLimitedSources:results.filter(r=>r.rateLimited).length,
     successfulSources:successful.length,
     rawEvents:freshEvents.length,
-    deduplicatedEvents:merged.length,
-    duplicateEventsRemoved:Math.max(0,freshEvents.length+prior.length-merged.length),
-    retainedPrevious:prior.length>0,
-    recoveredPreviousEvents:Math.max(0,merged.length-dedupe(freshEvents).length),
-    coverageRegression:freshEvents.length<Math.max(8,(previous?.events||[]).length*0.15),
-    publicSources:baseStats.publicSources??478,
-    protectedSources:baseStats.protectedSources??45,
+    deduplicatedEvents:events.length,
+    duplicateEventsRemoved:Math.max(0,freshEvents.length-events.length),
+    publicSources:loadSources().filter(s=>s.access==='public').length,
+    protectedSources:loadSources().filter(s=>s.access==='protected').length,
     durationMs:Date.now()-started,
     collectorMode:mode,
-    collectorVersion:'18.4.2-live-runtime',
+    collectorVersion:'18.5.0-live-only',
     collectorAttemptedAt:attemptedAt,
     scanAccepted:accepted,
     minProductiveRequired:minProductive,
-    previousProductiveSources:previousProductive,
+    fresh:accepted,
+    ageMs:accepted?0:null,
+    dataOrigin:accepted?'vercel-live-scan':'live-scan-failed'
   };
-
-  if(accepted){
-    return {
-      accepted:true,
-      payload:{
-        generatedAt:attemptedAt,
-        events:merged,
-        stats:{...baseStats,...scanStats,fresh:true,ageMs:0,dataOrigin:'vercel-live-scan'}
-      },
-      results
-    };
-  }
-
-  // IMPORTANT: failed scan does NOT rewrite the historic productive-source stats.
-  // We expose the failed attempt separately so the UI never lies with 0/100.
   return {
-    accepted:false,
-    payload:{
-      ...(previous||{generatedAt:null,events:[]}),
-      stats:{
-        ...baseStats,
-        fresh:false,
-        dataOrigin:'stale-snapshot',
-        liveScanAttemptedAt:attemptedAt,
-        liveScanProductiveSources:productive.length,
-        liveScanSuccessfulSources:successful.length,
-        liveScanErrorSources:scanStats.errorSources,
-        liveScanRateLimitedSources:scanStats.rateLimitedSources,
-        liveScanRawEvents:freshEvents.length,
-        liveScanDurationMs:scanStats.durationMs,
-        liveScanAccepted:false,
-      }
-    },
+    accepted,
+    payload:{generatedAt:accepted?attemptedAt:null,events:accepted?events:[],stats},
+    attemptStats:stats,
     results
   };
 }

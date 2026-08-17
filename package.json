@@ -1,7 +1,7 @@
 {
   "name": "sortir-be-v18-vercel",
   "private": true,
-  "version": "18.4.2-refresh-no-regression",
+  "version": "18.5.0-live-only",
   "type": "module",
   "scripts": {
     "start": "node server.mjs",
@@ -10,10 +10,6 @@
     "vercel:preview": "vercel deploy",
     "vercel:prod": "vercel deploy --prod",
     "qa:filter-scroll": "python qa/filter-scroll-regression.py",
-    "collect": "node scripts/collect-events.mjs --mode=fast",
-    "collect:deep": "node scripts/collect-events.mjs --mode=deep",
-    "collect:all": "node scripts/collect-events.mjs --mode=all",
-    "validate:data": "node scripts/validate-snapshot.mjs",
     "sources:recover": "node tools/extract-source-config.mjs"
   }
 }
