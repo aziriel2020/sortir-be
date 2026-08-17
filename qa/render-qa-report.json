@@ -1,0 +1,528 @@
+{
+  "total": 104,
+  "passed": 104,
+  "failed": 0,
+  "failures": [],
+  "results": [
+    {
+      "name": "320px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "320px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 302, \"right\": 346, \"width\": 44}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 347, \"right\": 391, \"width\": 44}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"hero-atmosphere\", \"left\": 147.3, \"right\": 424.3, \"width\": 277}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-a\", \"left\": 169, \"right\": 398.3, \"width\": 229.3}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-b\", \"left\": 218, \"right\": 337.1, \"width\": 119.2}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-core\", \"left\": 228.1, \"right\": 332.2, \"width\": 104}, {\"tag\": \"I\", \"id\": \"\", \"cls\": \"\", \"left\": 278, \"right\": 332.2, \"width\": 54.2}, {\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 34, \"right\": 333.9, \"width\": 299.9}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 29.1, \"right\": 338.9, \"width\": 309.8}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 260.6, \"right\": 338.9, \"width\": 78.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 260.6, \"right\": 338.9, \"width\": 78.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 260.6, \"right\": 338.9, \"width\": 78.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 260.6, \"right\": 338.9, \"width\": 78.4}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 35, \"right\": 332.9, \"width\": 297.9}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 234.1, \"right\": 322.7, \"width\": 88.6}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 231, \"right\": 331, \"width\": 100}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 335, \"right\": 435, \"width\": 100}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 282.6, \"right\": 345, \"width\": 62.5}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 352, \"right\": 403.1, \"width\": 51.1}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 410.1, \"right\": 461.5, \"width\": 51.5}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 468.5, \"right\": 549.6, \"width\": 81}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 556.6, \"right\": 617.4, \"width\": 60.8}]"
+    },
+    {
+      "name": "320px event-grid columns=1",
+      "pass": true,
+      "detail": "actual=1"
+    },
+    {
+      "name": "360px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "360px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"hero-atmosphere\", \"left\": 186.4, \"right\": 465.3, \"width\": 278.9}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-a\", \"left\": 208.2, \"right\": 439.2, \"width\": 231}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-b\", \"left\": 258.5, \"right\": 376.7, \"width\": 118.2}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-core\", \"left\": 267.7, \"right\": 372.6, \"width\": 104.9}, {\"tag\": \"I\", \"id\": \"\", \"cls\": \"\", \"left\": 317.6, \"right\": 372.6, \"width\": 55.1}, {\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 34, \"right\": 374.5, \"width\": 340.6}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 28.3, \"right\": 380.4, \"width\": 352.1}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 291.2, \"right\": 380.4, \"width\": 89.2}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 291.2, \"right\": 380.4, \"width\": 89.2}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 291.2, \"right\": 380.4, \"width\": 89.2}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 291.2, \"right\": 380.4, \"width\": 89.2}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 35, \"right\": 373.5, \"width\": 338.6}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 274.4, \"right\": 363.3, \"width\": 89}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 335, \"right\": 435, \"width\": 100}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 352, \"right\": 403.1, \"width\": 51.1}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 410.1, \"right\": 461.5, \"width\": 51.5}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 468.5, \"right\": 549.6, \"width\": 81}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 556.6, \"right\": 617.4, \"width\": 60.8}]"
+    },
+    {
+      "name": "360px event-grid columns=1",
+      "pass": true,
+      "detail": "actual=1"
+    },
+    {
+      "name": "375px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "375px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"hero-atmosphere\", \"left\": 201, \"right\": 480.7, \"width\": 279.7}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-a\", \"left\": 222.9, \"right\": 454.5, \"width\": 231.6}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-b\", \"left\": 273.7, \"right\": 391.5, \"width\": 117.8}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-core\", \"left\": 282.5, \"right\": 387.8, \"width\": 105.2}, {\"tag\": \"I\", \"id\": \"\", \"cls\": \"\", \"left\": 332.4, \"right\": 387.8, \"width\": 55.4}, {\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 34, \"right\": 389.8, \"width\": 355.9}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 28, \"right\": 396, \"width\": 368}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 302.8, \"right\": 396, \"width\": 93.3}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 302.8, \"right\": 396, \"width\": 93.3}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 302.8, \"right\": 396, \"width\": 93.3}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 302.8, \"right\": 396, \"width\": 93.3}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 35, \"right\": 388.8, \"width\": 353.9}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 289.5, \"right\": 378.6, \"width\": 89.1}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 335, \"right\": 435, \"width\": 100}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 352, \"right\": 403.1, \"width\": 51.1}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 410.1, \"right\": 461.5, \"width\": 51.5}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 468.5, \"right\": 549.6, \"width\": 81}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 556.6, \"right\": 617.4, \"width\": 60.8}]"
+    },
+    {
+      "name": "375px event-grid columns=1",
+      "pass": true,
+      "detail": "actual=1"
+    },
+    {
+      "name": "390px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "390px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"hero-atmosphere\", \"left\": 215.7, \"right\": 496.1, \"width\": 280.4}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-a\", \"left\": 237.6, \"right\": 469.8, \"width\": 232.2}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-b\", \"left\": 288.8, \"right\": 406.3, \"width\": 117.5}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-core\", \"left\": 297.4, \"right\": 403, \"width\": 105.6}, {\"tag\": \"I\", \"id\": \"\", \"cls\": \"\", \"left\": 347.2, \"right\": 403, \"width\": 55.7}, {\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 34, \"right\": 405.2, \"width\": 371.2}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 27.7, \"right\": 411.7, \"width\": 383.9}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 314.3, \"right\": 411.7, \"width\": 97.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 314.3, \"right\": 411.7, \"width\": 97.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 314.3, \"right\": 411.7, \"width\": 97.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 314.3, \"right\": 411.7, \"width\": 97.4}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 35, \"right\": 404.1, \"width\": 369.2}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 304.7, \"right\": 393.9, \"width\": 89.2}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 335, \"right\": 435, \"width\": 100}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 352, \"right\": 403.1, \"width\": 51.1}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 410.1, \"right\": 461.5, \"width\": 51.5}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 468.5, \"right\": 549.6, \"width\": 81}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 556.6, \"right\": 617.4, \"width\": 60.8}]"
+    },
+    {
+      "name": "390px event-grid columns=1",
+      "pass": true,
+      "detail": "actual=1"
+    },
+    {
+      "name": "412px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "412px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"hero-atmosphere\", \"left\": 237.2, \"right\": 518.7, \"width\": 281.5}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-a\", \"left\": 259.2, \"right\": 492.3, \"width\": 233.1}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-b\", \"left\": 311.1, \"right\": 428.1, \"width\": 117}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-core\", \"left\": 319.1, \"right\": 425.2, \"width\": 106.1}, {\"tag\": \"I\", \"id\": \"\", \"cls\": \"\", \"left\": 369, \"right\": 425.2, \"width\": 56.2}, {\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 34, \"right\": 427.7, \"width\": 393.7}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 27.3, \"right\": 434.6, \"width\": 407.3}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 331.2, \"right\": 434.6, \"width\": 103.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 331.2, \"right\": 434.6, \"width\": 103.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 331.2, \"right\": 434.6, \"width\": 103.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 331.2, \"right\": 434.6, \"width\": 103.4}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 35, \"right\": 426.6, \"width\": 391.7}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 327, \"right\": 416.4, \"width\": 89.4}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 335, \"right\": 435, \"width\": 100}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 410.1, \"right\": 461.5, \"width\": 51.5}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 468.5, \"right\": 549.6, \"width\": 81}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 556.6, \"right\": 617.4, \"width\": 60.8}]"
+    },
+    {
+      "name": "412px event-grid columns=1",
+      "pass": true,
+      "detail": "actual=1"
+    },
+    {
+      "name": "430px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "430px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"hero-atmosphere\", \"left\": 254.7, \"right\": 537.1, \"width\": 282.4}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-a\", \"left\": 276.9, \"right\": 510.7, \"width\": 233.8}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-b\", \"left\": 329.3, \"right\": 445.8, \"width\": 116.5}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-core\", \"left\": 337, \"right\": 443.4, \"width\": 106.5}, {\"tag\": \"I\", \"id\": \"\", \"cls\": \"\", \"left\": 386.8, \"right\": 443.4, \"width\": 56.6}, {\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 34, \"right\": 446.1, \"width\": 412.1}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 26.9, \"right\": 453.5, \"width\": 426.5}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 345.1, \"right\": 453.5, \"width\": 108.3}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 345.1, \"right\": 453.5, \"width\": 108.3}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 345.1, \"right\": 453.5, \"width\": 108.3}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 345.1, \"right\": 453.5, \"width\": 108.3}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 35, \"right\": 445.1, \"width\": 410.1}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 345.2, \"right\": 434.8, \"width\": 89.6}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 335, \"right\": 435, \"width\": 100}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 410.1, \"right\": 461.5, \"width\": 51.5}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 468.5, \"right\": 549.6, \"width\": 81}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 556.6, \"right\": 617.4, \"width\": 60.8}]"
+    },
+    {
+      "name": "430px event-grid columns=1",
+      "pass": true,
+      "detail": "actual=1"
+    },
+    {
+      "name": "480px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "480px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"hero-atmosphere\", \"left\": 303.6, \"right\": 588.4, \"width\": 284.9}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-a\", \"left\": 325.9, \"right\": 561.7, \"width\": 235.8}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-b\", \"left\": 380, \"right\": 495.3, \"width\": 115.3}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-core\", \"left\": 386.4, \"right\": 494, \"width\": 107.6}, {\"tag\": \"I\", \"id\": \"\", \"cls\": \"\", \"left\": 436.2, \"right\": 494, \"width\": 57.7}, {\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 34, \"right\": 497.5, \"width\": 463.6}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 25.9, \"right\": 505.9, \"width\": 480}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 383.8, \"right\": 505.9, \"width\": 122.1}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 383.8, \"right\": 505.9, \"width\": 122.1}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 383.8, \"right\": 505.9, \"width\": 122.1}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 383.8, \"right\": 505.9, \"width\": 122.1}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 35, \"right\": 496.5, \"width\": 461.5}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-topbar glass\", \"left\": 47.8, \"right\": 483.1, \"width\": 435.3}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 396.2, \"right\": 486.2, \"width\": 90}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 468.5, \"right\": 549.6, \"width\": 81}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 556.6, \"right\": 617.4, \"width\": 60.8}]"
+    },
+    {
+      "name": "480px event-grid columns=1",
+      "pass": true,
+      "detail": "actual=1"
+    },
+    {
+      "name": "540px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "540px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"hero-atmosphere\", \"left\": 362.2, \"right\": 650, \"width\": 287.8}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-a\", \"left\": 384.7, \"right\": 623, \"width\": 238.3}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-b\", \"left\": 440.7, \"right\": 554.5, \"width\": 113.9}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-core\", \"left\": 445.8, \"right\": 554.7, \"width\": 108.9}, {\"tag\": \"I\", \"id\": \"\", \"cls\": \"\", \"left\": 495.6, \"right\": 554.7, \"width\": 59.1}, {\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 34, \"right\": 559.6, \"width\": 525.6}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 24.8, \"right\": 569.3, \"width\": 544.5}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 430.4, \"right\": 569.3, \"width\": 138.9}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 430.4, \"right\": 569.3, \"width\": 138.9}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 430.4, \"right\": 569.3, \"width\": 138.9}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 430.4, \"right\": 569.3, \"width\": 138.9}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 35, \"right\": 558.5, \"width\": 523.6}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-topbar glass\", \"left\": 47.8, \"right\": 545.1, \"width\": 497.3}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 457.6, \"right\": 548.2, \"width\": 90.6}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 468.5, \"right\": 549.6, \"width\": 81}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 556.6, \"right\": 617.4, \"width\": 60.8}]"
+    },
+    {
+      "name": "540px event-grid columns=1",
+      "pass": true,
+      "detail": "actual=1"
+    },
+    {
+      "name": "600px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "600px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"hero-atmosphere\", \"left\": 420.8, \"right\": 711.5, \"width\": 290.8}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-a\", \"left\": 443.5, \"right\": 684.3, \"width\": 240.7}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-b\", \"left\": 501.4, \"right\": 613.8, \"width\": 112.4}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-core\", \"left\": 505.1, \"right\": 615.3, \"width\": 110.2}, {\"tag\": \"I\", \"id\": \"\", \"cls\": \"\", \"left\": 554.9, \"right\": 615.3, \"width\": 60.4}, {\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 34, \"right\": 622, \"width\": 588}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 23.6, \"right\": 633, \"width\": 609.5}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 477.2, \"right\": 633, \"width\": 155.8}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 477.2, \"right\": 633, \"width\": 155.8}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 477.2, \"right\": 633, \"width\": 155.8}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 477.2, \"right\": 633, \"width\": 155.8}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 35, \"right\": 621, \"width\": 586}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-topbar glass\", \"left\": 47.8, \"right\": 607.4, \"width\": 559.6}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 519.4, \"right\": 610.5, \"width\": 91.1}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 556.6, \"right\": 617.4, \"width\": 60.8}]"
+    },
+    {
+      "name": "600px event-grid columns=1",
+      "pass": true,
+      "detail": "actual=1"
+    },
+    {
+      "name": "640px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "640px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"hero-atmosphere\", \"left\": 459.8, \"right\": 752.6, \"width\": 292.7}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-a\", \"left\": 482.7, \"right\": 725.1, \"width\": 242.4}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-b\", \"left\": 541.9, \"right\": 653.4, \"width\": 111.4}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-core\", \"left\": 544.7, \"right\": 655.8, \"width\": 111.1}, {\"tag\": \"I\", \"id\": \"\", \"cls\": \"\", \"left\": 594.5, \"right\": 655.8, \"width\": 61.3}, {\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 34, \"right\": 663.8, \"width\": 629.9}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 22.8, \"right\": 675.7, \"width\": 653}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 508.5, \"right\": 675.7, \"width\": 167.2}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 508.5, \"right\": 675.7, \"width\": 167.2}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 508.5, \"right\": 675.7, \"width\": 167.2}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 508.5, \"right\": 675.7, \"width\": 167.2}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 35, \"right\": 662.8, \"width\": 627.8}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-topbar glass\", \"left\": 47.8, \"right\": 649.2, \"width\": 601.4}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 560.8, \"right\": 652.3, \"width\": 91.5}]"
+    },
+    {
+      "name": "640px event-grid columns=1",
+      "pass": true,
+      "detail": "actual=1"
+    },
+    {
+      "name": "641px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "641px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"hero-atmosphere\", \"left\": 345.7, \"right\": 697.8, \"width\": 352.1}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-a\", \"left\": 367.4, \"right\": 670.5, \"width\": 303.1}, {\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 42, \"right\": 656.1, \"width\": 614.2}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 31.1, \"right\": 667.7, \"width\": 636.6}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 504.8, \"right\": 667.7, \"width\": 162.9}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 504.8, \"right\": 667.7, \"width\": 162.9}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 504.8, \"right\": 667.7, \"width\": 162.9}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 504.8, \"right\": 667.7, \"width\": 162.9}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 43, \"right\": 655.1, \"width\": 612.1}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 553.3, \"right\": 644.6, \"width\": 91.4}]"
+    },
+    {
+      "name": "641px event-grid columns=2",
+      "pass": true,
+      "detail": "actual=2"
+    },
+    {
+      "name": "720px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "720px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"hero-atmosphere\", \"left\": 422.4, \"right\": 779.3, \"width\": 356.9}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-a\", \"left\": 444.4, \"right\": 751.7, \"width\": 307.2}, {\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 42, \"right\": 739.1, \"width\": 697.1}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 29.5, \"right\": 752.4, \"width\": 722.9}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 566.9, \"right\": 752.4, \"width\": 185.6}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 566.9, \"right\": 752.4, \"width\": 185.6}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 566.9, \"right\": 752.4, \"width\": 185.6}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 566.9, \"right\": 752.4, \"width\": 185.6}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 43, \"right\": 738.1, \"width\": 695.1}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 635.4, \"right\": 727.5, \"width\": 92.1}]"
+    },
+    {
+      "name": "720px event-grid columns=2",
+      "pass": true,
+      "detail": "actual=2"
+    },
+    {
+      "name": "768px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "768px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"hero-atmosphere\", \"left\": 469, \"right\": 828.9, \"width\": 359.9}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-a\", \"left\": 491.3, \"right\": 801, \"width\": 309.7}, {\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 42, \"right\": 789.9, \"width\": 747.9}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 28.6, \"right\": 804.3, \"width\": 775.7}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 604.8, \"right\": 804.3, \"width\": 199.5}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 604.8, \"right\": 804.3, \"width\": 199.5}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 604.8, \"right\": 804.3, \"width\": 199.5}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 604.8, \"right\": 804.3, \"width\": 199.5}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 43, \"right\": 788.8, \"width\": 745.8}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 685.7, \"right\": 778.2, \"width\": 92.5}]"
+    },
+    {
+      "name": "768px event-grid columns=2",
+      "pass": true,
+      "detail": "actual=2"
+    },
+    {
+      "name": "800px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "800px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"hero-atmosphere\", \"left\": 500.1, \"right\": 861.9, \"width\": 361.8}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-a\", \"left\": 522.5, \"right\": 833.9, \"width\": 311.4}, {\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 42, \"right\": 823.8, \"width\": 781.9}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 28, \"right\": 839, \"width\": 811}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 630.1, \"right\": 839, \"width\": 208.9}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 630.1, \"right\": 839, \"width\": 208.9}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 630.1, \"right\": 839, \"width\": 208.9}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 630.1, \"right\": 839, \"width\": 208.9}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 43, \"right\": 822.8, \"width\": 779.8}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 719.3, \"right\": 812.1, \"width\": 92.8}]"
+    },
+    {
+      "name": "800px event-grid columns=2",
+      "pass": true,
+      "detail": "actual=2"
+    },
+    {
+      "name": "820px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "820px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"hero-atmosphere\", \"left\": 519.5, \"right\": 882.6, \"width\": 363}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-a\", \"left\": 542, \"right\": 854.4, \"width\": 312.5}, {\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 42, \"right\": 845.1, \"width\": 803.1}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 27.6, \"right\": 860.7, \"width\": 833.2}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 646, \"right\": 860.7, \"width\": 214.7}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 646, \"right\": 860.7, \"width\": 214.7}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 646, \"right\": 860.7, \"width\": 214.7}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 646, \"right\": 860.7, \"width\": 214.7}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 43, \"right\": 844, \"width\": 801.1}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 740.4, \"right\": 833.4, \"width\": 93}]"
+    },
+    {
+      "name": "820px event-grid columns=2",
+      "pass": true,
+      "detail": "actual=2"
+    },
+    {
+      "name": "834px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "834px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"hero-atmosphere\", \"left\": 533.1, \"right\": 897, \"width\": 363.9}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-a\", \"left\": 555.6, \"right\": 868.8, \"width\": 313.2}, {\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 42, \"right\": 860, \"width\": 818.1}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 27.3, \"right\": 876, \"width\": 848.7}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 657.1, \"right\": 876, \"width\": 218.8}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 657.1, \"right\": 876, \"width\": 218.8}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 657.1, \"right\": 876, \"width\": 218.8}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 657.1, \"right\": 876, \"width\": 218.8}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 43, \"right\": 859, \"width\": 816}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 755.1, \"right\": 848.3, \"width\": 93.2}]"
+    },
+    {
+      "name": "834px event-grid columns=2",
+      "pass": true,
+      "detail": "actual=2"
+    },
+    {
+      "name": "900px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "900px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 456, \"right\": 909.2, \"width\": 453.3}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 448.1, \"right\": 917.4, \"width\": 469.3}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 798.1, \"right\": 917.4, \"width\": 119.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 798.1, \"right\": 917.4, \"width\": 119.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 798.1, \"right\": 917.4, \"width\": 119.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 798.1, \"right\": 917.4, \"width\": 119.4}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 457, \"right\": 908.2, \"width\": 451.2}]"
+    },
+    {
+      "name": "900px event-grid columns=2",
+      "pass": true,
+      "detail": "actual=2"
+    },
+    {
+      "name": "1024px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "1024px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 515.5, \"right\": 1035.4, \"width\": 519.9}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 506.4, \"right\": 1044.9, \"width\": 538.6}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 907.6, \"right\": 1044.9, \"width\": 137.3}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 907.6, \"right\": 1044.9, \"width\": 137.3}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 907.6, \"right\": 1044.9, \"width\": 137.3}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 907.6, \"right\": 1044.9, \"width\": 137.3}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 516.5, \"right\": 1034.3, \"width\": 517.8}]"
+    },
+    {
+      "name": "1024px event-grid columns=2",
+      "pass": true,
+      "detail": "actual=2"
+    },
+    {
+      "name": "1080px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "1080px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 542.4, \"right\": 1092.5, \"width\": 550.1}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 532.7, \"right\": 1102.7, \"width\": 570}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 957.2, \"right\": 1102.7, \"width\": 145.5}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 957.2, \"right\": 1102.7, \"width\": 145.5}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 957.2, \"right\": 1102.7, \"width\": 145.5}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 957.2, \"right\": 1102.7, \"width\": 145.5}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 543.3, \"right\": 1091.4, \"width\": 548.1}]"
+    },
+    {
+      "name": "1080px event-grid columns=2",
+      "pass": true,
+      "detail": "actual=2"
+    },
+    {
+      "name": "1180px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "1180px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 590.4, \"right\": 1194.7, \"width\": 604.3}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 579.7, \"right\": 1206, \"width\": 626.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1045.8, \"right\": 1206, \"width\": 160.2}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1045.8, \"right\": 1206, \"width\": 160.2}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1045.8, \"right\": 1206, \"width\": 160.2}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1045.8, \"right\": 1206, \"width\": 160.2}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 591.3, \"right\": 1193.6, \"width\": 602.3}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 1091.9, \"right\": 1183.2, \"width\": 91.3}]"
+    },
+    {
+      "name": "1180px event-grid columns=2",
+      "pass": true,
+      "detail": "actual=2"
+    },
+    {
+      "name": "1181px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "1181px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 579, \"right\": 1190, \"width\": 610.9}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 568.2, \"right\": 1201.5, \"width\": 633.3}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1039.4, \"right\": 1201.5, \"width\": 162}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1039.4, \"right\": 1201.5, \"width\": 162}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1039.4, \"right\": 1201.5, \"width\": 162}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1039.4, \"right\": 1201.5, \"width\": 162}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 580, \"right\": 1188.9, \"width\": 608.9}]"
+    },
+    {
+      "name": "1181px event-grid columns=3",
+      "pass": true,
+      "detail": "actual=3"
+    },
+    {
+      "name": "1280px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "1280px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 625.6, \"right\": 1291.5, \"width\": 666}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 613.7, \"right\": 1304.2, \"width\": 690.5}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1127.1, \"right\": 1304.2, \"width\": 177.1}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1127.1, \"right\": 1304.2, \"width\": 177.1}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1127.1, \"right\": 1304.2, \"width\": 177.1}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1127.1, \"right\": 1304.2, \"width\": 177.1}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 626.5, \"right\": 1290.5, \"width\": 663.9}]"
+    },
+    {
+      "name": "1280px event-grid columns=3",
+      "pass": true,
+      "detail": "actual=3"
+    },
+    {
+      "name": "1366px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "1366px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 666, \"right\": 1380, \"width\": 714}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 653.2, \"right\": 1393.7, \"width\": 740.5}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1203.5, \"right\": 1393.7, \"width\": 190.2}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1203.5, \"right\": 1393.7, \"width\": 190.2}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1203.5, \"right\": 1393.7, \"width\": 190.2}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1203.5, \"right\": 1393.7, \"width\": 190.2}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 667, \"right\": 1378.9, \"width\": 712}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 1276.1, \"right\": 1368.4, \"width\": 92.2}]"
+    },
+    {
+      "name": "1366px event-grid columns=3",
+      "pass": true,
+      "detail": "actual=3"
+    },
+    {
+      "name": "1440px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "1440px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 700.8, \"right\": 1456.3, \"width\": 755.5}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 687.2, \"right\": 1470.9, \"width\": 783.6}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1269.3, \"right\": 1470.9, \"width\": 201.6}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1269.3, \"right\": 1470.9, \"width\": 201.6}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1269.3, \"right\": 1470.9, \"width\": 201.6}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1269.3, \"right\": 1470.9, \"width\": 201.6}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 701.8, \"right\": 1455.2, \"width\": 753.5}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 1352, \"right\": 1444.6, \"width\": 92.6}]"
+    },
+    {
+      "name": "1440px event-grid columns=3",
+      "pass": true,
+      "detail": "actual=3"
+    },
+    {
+      "name": "1536px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "1536px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 745.9, \"right\": 1555.5, \"width\": 809.6}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 731.3, \"right\": 1571.2, \"width\": 839.9}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1354.7, \"right\": 1571.2, \"width\": 216.5}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1354.7, \"right\": 1571.2, \"width\": 216.5}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1354.7, \"right\": 1571.2, \"width\": 216.5}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1354.7, \"right\": 1571.2, \"width\": 216.5}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 746.9, \"right\": 1554.4, \"width\": 807.6}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 1450.7, \"right\": 1543.8, \"width\": 93.1}]"
+    },
+    {
+      "name": "1536px event-grid columns=3",
+      "pass": true,
+      "detail": "actual=3"
+    },
+    {
+      "name": "1600px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "1600px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 776, \"right\": 1621.8, \"width\": 845.9}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 760.8, \"right\": 1638.4, \"width\": 877.6}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1411.8, \"right\": 1638.4, \"width\": 226.5}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1411.8, \"right\": 1638.4, \"width\": 226.5}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1411.8, \"right\": 1638.4, \"width\": 226.5}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1411.8, \"right\": 1638.4, \"width\": 226.5}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 777, \"right\": 1620.8, \"width\": 843.8}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 1516.6, \"right\": 1610.1, \"width\": 93.4}]"
+    },
+    {
+      "name": "1600px event-grid columns=3",
+      "pass": true,
+      "detail": "actual=3"
+    },
+    {
+      "name": "1728px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "1728px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 836.1, \"right\": 1754.8, \"width\": 918.7}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 819.6, \"right\": 1772.9, \"width\": 953.3}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1526.2, \"right\": 1772.9, \"width\": 246.7}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1526.2, \"right\": 1772.9, \"width\": 246.7}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1526.2, \"right\": 1772.9, \"width\": 246.7}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1526.2, \"right\": 1772.9, \"width\": 246.7}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 837.1, \"right\": 1753.7, \"width\": 916.6}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 1648.9, \"right\": 1743, \"width\": 94.1}]"
+    },
+    {
+      "name": "1728px event-grid columns=3",
+      "pass": true,
+      "detail": "actual=3"
+    },
+    {
+      "name": "1920px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "1920px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 926.4, \"right\": 1955.2, \"width\": 1028.9}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 907.8, \"right\": 1975.8, \"width\": 1067.9}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1698.2, \"right\": 1975.8, \"width\": 277.5}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1698.2, \"right\": 1975.8, \"width\": 277.5}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1698.2, \"right\": 1975.8, \"width\": 277.5}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1698.2, \"right\": 1975.8, \"width\": 277.5}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 927.3, \"right\": 1954.1, \"width\": 1026.8}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-topbar glass\", \"left\": 952, \"right\": 1927, \"width\": 975}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 1848.2, \"right\": 1943.3, \"width\": 95.1}]"
+    },
+    {
+      "name": "1920px event-grid columns=3",
+      "pass": true,
+      "detail": "actual=3"
+    },
+    {
+      "name": "2048px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "2048px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 986.5, \"right\": 2089.5, \"width\": 1103}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 966.7, \"right\": 2111.7, \"width\": 1145}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1813.3, \"right\": 2111.7, \"width\": 298.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1813.3, \"right\": 2111.7, \"width\": 298.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1813.3, \"right\": 2111.7, \"width\": 298.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 1813.3, \"right\": 2111.7, \"width\": 298.4}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 987.5, \"right\": 2088.4, \"width\": 1100.9}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-topbar glass\", \"left\": 1012.2, \"right\": 2061, \"width\": 1048.9}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 2013, \"right\": 2050.1, \"width\": 37.1}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 1981.7, \"right\": 2077.5, \"width\": 95.7}]"
+    },
+    {
+      "name": "2048px event-grid columns=3",
+      "pass": true,
+      "detail": "actual=3"
+    },
+    {
+      "name": "2560px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "2560px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 1227.2, \"right\": 2631.9, \"width\": 1404.7}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 1202, \"right\": 2660.8, \"width\": 1458.9}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 2276.5, \"right\": 2660.8, \"width\": 384.3}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 2276.5, \"right\": 2660.8, \"width\": 384.3}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 2276.5, \"right\": 2660.8, \"width\": 384.3}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 2276.5, \"right\": 2660.8, \"width\": 384.3}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 1228.1, \"right\": 2630.8, \"width\": 1402.6}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-topbar glass\", \"left\": 1252.8, \"right\": 2602.6, \"width\": 1349.8}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 2553.2, \"right\": 2591.4, \"width\": 38.1}, {\"tag\": \"svg\", \"id\": \"\", \"cls\": \"[object SVGAnimatedString]\", \"left\": 2562.8, \"right\": 2581.8, \"width\": 19.1}, {\"tag\": \"circle\", \"id\": \"\", \"cls\": \"[object SVGAnimatedString]\", \"left\": 2566.7, \"right\": 2577.9, \"width\": 11.1}, {\"tag\": \"circle\", \"id\": \"\", \"cls\": \"[object SVGAnimatedString]\", \"left\": 2570.7, \"right\": 2573.9, \"width\": 3.2}, {\"tag\": \"path\", \"id\": \"\", \"cls\": \"[object SVGAnimatedString]\", \"left\": 2564.3, \"right\": 2580.2, \"width\": 15.9}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 2521, \"right\": 2619.5, \"width\": 98.5}]"
+    },
+    {
+      "name": "2560px event-grid columns=3",
+      "pass": true,
+      "detail": "actual=3"
+    },
+    {
+      "name": "3440px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "3440px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 1640.8, \"right\": 3584.7, \"width\": 1944}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 1606.4, \"right\": 3626.2, \"width\": 2019.8}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 3084, \"right\": 3626.2, \"width\": 542.2}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 3084, \"right\": 3626.2, \"width\": 542.2}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 3084, \"right\": 3626.2, \"width\": 542.2}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 3084, \"right\": 3626.2, \"width\": 542.2}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 1641.8, \"right\": 3583.6, \"width\": 1941.8}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-topbar glass\", \"left\": 1666.4, \"right\": 3554, \"width\": 1887.6}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 3502.1, \"right\": 3542.2, \"width\": 40.1}, {\"tag\": \"svg\", \"id\": \"\", \"cls\": \"[object SVGAnimatedString]\", \"left\": 3512.1, \"right\": 3532.1, \"width\": 20}, {\"tag\": \"circle\", \"id\": \"\", \"cls\": \"[object SVGAnimatedString]\", \"left\": 3516.3, \"right\": 3528, \"width\": 11.7}, {\"tag\": \"circle\", \"id\": \"\", \"cls\": \"[object SVGAnimatedString]\", \"left\": 3520.4, \"right\": 3523.8, \"width\": 3.3}, {\"tag\": \"path\", \"id\": \"\", \"cls\": \"[object SVGAnimatedString]\", \"left\": 3513.8, \"right\": 3530.5, \"width\": 16.7}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 3468.2, \"right\": 3571.7, \"width\": 103.5}]"
+    },
+    {
+      "name": "3440px event-grid columns=3",
+      "pass": true,
+      "detail": "actual=3"
+    },
+    {
+      "name": "3840px SSR cards present",
+      "pass": true,
+      "detail": "cards=1"
+    },
+    {
+      "name": "3840px no global horizontal overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 1828.8, \"right\": 4026.9, \"width\": 2198.2}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 1790.2, \"right\": 4074.6, \"width\": 2284.3}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 3455.9, \"right\": 4074.6, \"width\": 618.6}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 3455.9, \"right\": 4074.6, \"width\": 618.6}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 3455.9, \"right\": 4074.6, \"width\": 618.6}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 3455.9, \"right\": 4074.6, \"width\": 618.6}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 1829.8, \"right\": 4025.7, \"width\": 2196}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-topbar glass\", \"left\": 1854.4, \"right\": 3995.4, \"width\": 2141}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 3942.4, \"right\": 3983.4, \"width\": 41}, {\"tag\": \"svg\", \"id\": \"\", \"cls\": \"[object SVGAnimatedString]\", \"left\": 3952.6, \"right\": 3973.1, \"width\": 20.5}, {\"tag\": \"circle\", \"id\": \"\", \"cls\": \"[object SVGAnimatedString]\", \"left\": 3956.9, \"right\": 3968.8, \"width\": 12}, {\"tag\": \"circle\", \"id\": \"\", \"cls\": \"[object SVGAnimatedString]\", \"left\": 3961.1, \"right\": 3964.5, \"width\": 3.4}, {\"tag\": \"path\", \"id\": \"\", \"cls\": \"[object SVGAnimatedString]\", \"left\": 3954.3, \"right\": 3971.4, \"width\": 17.1}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 3907.7, \"right\": 4013.6, \"width\": 105.9}]"
+    },
+    {
+      "name": "3840px event-grid columns=3",
+      "pass": true,
+      "detail": "actual=3"
+    },
+    {
+      "name": "390x500 no overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"hero-atmosphere\", \"left\": 215.7, \"right\": 496.1, \"width\": 280.4}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-a\", \"left\": 237.6, \"right\": 469.8, \"width\": 232.2}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-b\", \"left\": 288.8, \"right\": 406.3, \"width\": 117.5}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-core\", \"left\": 297.4, \"right\": 403, \"width\": 105.6}, {\"tag\": \"I\", \"id\": \"\", \"cls\": \"\", \"left\": 347.2, \"right\": 403, \"width\": 55.7}, {\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 34, \"right\": 405.2, \"width\": 371.2}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 27.7, \"right\": 411.7, \"width\": 383.9}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 314.3, \"right\": 411.7, \"width\": 97.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 314.3, \"right\": 411.7, \"width\": 97.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 314.3, \"right\": 411.7, \"width\": 97.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 314.3, \"right\": 411.7, \"width\": 97.4}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 35, \"right\": 404.1, \"width\": 369.2}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 304.7, \"right\": 393.9, \"width\": 89.2}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 335, \"right\": 435, \"width\": 100}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 352, \"right\": 403.1, \"width\": 51.1}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 410.1, \"right\": 461.5, \"width\": 51.5}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 468.5, \"right\": 549.6, \"width\": 81}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 556.6, \"right\": 617.4, \"width\": 60.8}]"
+    },
+    {
+      "name": "390x600 no overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"hero-atmosphere\", \"left\": 215.7, \"right\": 496.1, \"width\": 280.4}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-a\", \"left\": 237.6, \"right\": 469.8, \"width\": 232.2}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-b\", \"left\": 288.8, \"right\": 406.3, \"width\": 117.5}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-core\", \"left\": 297.4, \"right\": 403, \"width\": 105.6}, {\"tag\": \"I\", \"id\": \"\", \"cls\": \"\", \"left\": 347.2, \"right\": 403, \"width\": 55.7}, {\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 34, \"right\": 405.2, \"width\": 371.2}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 27.7, \"right\": 411.7, \"width\": 383.9}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 314.3, \"right\": 411.7, \"width\": 97.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 314.3, \"right\": 411.7, \"width\": 97.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 314.3, \"right\": 411.7, \"width\": 97.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 314.3, \"right\": 411.7, \"width\": 97.4}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 35, \"right\": 404.1, \"width\": 369.2}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 304.7, \"right\": 393.9, \"width\": 89.2}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 335, \"right\": 435, \"width\": 100}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 352, \"right\": 403.1, \"width\": 51.1}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 410.1, \"right\": 461.5, \"width\": 51.5}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 468.5, \"right\": 549.6, \"width\": 81}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 556.6, \"right\": 617.4, \"width\": 60.8}]"
+    },
+    {
+      "name": "390x700 no overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"hero-atmosphere\", \"left\": 215.7, \"right\": 496.1, \"width\": 280.4}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-a\", \"left\": 237.6, \"right\": 469.8, \"width\": 232.2}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-b\", \"left\": 288.8, \"right\": 406.3, \"width\": 117.5}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-core\", \"left\": 297.4, \"right\": 403, \"width\": 105.6}, {\"tag\": \"I\", \"id\": \"\", \"cls\": \"\", \"left\": 347.2, \"right\": 403, \"width\": 55.7}, {\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 34, \"right\": 405.2, \"width\": 371.2}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 27.7, \"right\": 411.7, \"width\": 383.9}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 314.3, \"right\": 411.7, \"width\": 97.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 314.3, \"right\": 411.7, \"width\": 97.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 314.3, \"right\": 411.7, \"width\": 97.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 314.3, \"right\": 411.7, \"width\": 97.4}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 35, \"right\": 404.1, \"width\": 369.2}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 304.7, \"right\": 393.9, \"width\": 89.2}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 335, \"right\": 435, \"width\": 100}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 352, \"right\": 403.1, \"width\": 51.1}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 410.1, \"right\": 461.5, \"width\": 51.5}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 468.5, \"right\": 549.6, \"width\": 81}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 556.6, \"right\": 617.4, \"width\": 60.8}]"
+    },
+    {
+      "name": "390x800 no overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"hero-atmosphere\", \"left\": 215.7, \"right\": 496.1, \"width\": 280.4}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-a\", \"left\": 237.6, \"right\": 469.8, \"width\": 232.2}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-b\", \"left\": 288.8, \"right\": 406.3, \"width\": 117.5}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-core\", \"left\": 297.4, \"right\": 403, \"width\": 105.6}, {\"tag\": \"I\", \"id\": \"\", \"cls\": \"\", \"left\": 347.2, \"right\": 403, \"width\": 55.7}, {\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 34, \"right\": 405.2, \"width\": 371.2}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 27.7, \"right\": 411.7, \"width\": 383.9}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 314.3, \"right\": 411.7, \"width\": 97.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 314.3, \"right\": 411.7, \"width\": 97.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 314.3, \"right\": 411.7, \"width\": 97.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 314.3, \"right\": 411.7, \"width\": 97.4}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 35, \"right\": 404.1, \"width\": 369.2}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 304.7, \"right\": 393.9, \"width\": 89.2}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 335, \"right\": 435, \"width\": 100}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 352, \"right\": 403.1, \"width\": 51.1}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 410.1, \"right\": 461.5, \"width\": 51.5}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 468.5, \"right\": 549.6, \"width\": 81}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 556.6, \"right\": 617.4, \"width\": 60.8}]"
+    },
+    {
+      "name": "844x390 landscape no overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"hero-atmosphere\", \"left\": 542.8, \"right\": 907.3, \"width\": 364.5}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-a\", \"left\": 565.4, \"right\": 879.1, \"width\": 313.7}, {\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 42, \"right\": 870.7, \"width\": 828.7}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 27.1, \"right\": 886.9, \"width\": 859.8}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 665.1, \"right\": 886.9, \"width\": 221.8}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 665.1, \"right\": 886.9, \"width\": 221.8}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 665.1, \"right\": 886.9, \"width\": 221.8}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 665.1, \"right\": 886.9, \"width\": 221.8}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 43, \"right\": 869.6, \"width\": 826.7}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 765.7, \"right\": 859, \"width\": 93.3}]"
+    },
+    {
+      "name": "320px extreme unbroken content no overflow",
+      "pass": true,
+      "detail": "[{\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 302, \"right\": 346, \"width\": 44}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 347, \"right\": 391, \"width\": 44}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"hero-atmosphere\", \"left\": 147.3, \"right\": 424.3, \"width\": 277}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-a\", \"left\": 169, \"right\": 398.3, \"width\": 229.3}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-orbit orbit-b\", \"left\": 218, \"right\": 337.1, \"width\": 119.2}, {\"tag\": \"SPAN\", \"id\": \"\", \"cls\": \"atmosphere-core\", \"left\": 228.1, \"right\": 332.2, \"width\": 104}, {\"tag\": \"I\", \"id\": \"\", \"cls\": \"\", \"left\": 278, \"right\": 332.2, \"width\": 54.2}, {\"tag\": \"SECTION\", \"id\": \"carte\", \"cls\": \"map-panel\", \"left\": 34, \"right\": 333.9, \"width\": 299.9}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-tiles\", \"left\": 29.1, \"right\": 338.9, \"width\": 309.8}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 260.6, \"right\": 338.9, \"width\": 78.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 260.6, \"right\": 338.9, \"width\": 78.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 260.6, \"right\": 338.9, \"width\": 78.4}, {\"tag\": \"IMG\", \"id\": \"\", \"cls\": \"\", \"left\": 260.6, \"right\": 338.9, \"width\": 78.4}, {\"tag\": \"DIV\", \"id\": \"\", \"cls\": \"map-vignette\", \"left\": 35, \"right\": 332.9, \"width\": 297.9}, {\"tag\": \"A\", \"id\": \"\", \"cls\": \"map-credit\", \"left\": 234.1, \"right\": 322.7, \"width\": 88.6}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 231, \"right\": 331, \"width\": 100}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 335, \"right\": 435, \"width\": 100}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 282.6, \"right\": 345, \"width\": 62.5}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 352, \"right\": 403.1, \"width\": 51.1}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 410.1, \"right\": 461.5, \"width\": 51.5}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 468.5, \"right\": 549.6, \"width\": 81}, {\"tag\": \"BUTTON\", \"id\": \"\", \"cls\": \"\", \"left\": 556.6, \"right\": 617.4, \"width\": 60.8}]"
+    },
+    {
+      "name": "mobile primary controls >=44px",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "reduced-motion animation suppressed",
+      "pass": true,
+      "detail": "{\"animationDuration\": \"1e-06s\", \"transitionDuration\": \"1e-06s\"}"
+    }
+  ]
+}

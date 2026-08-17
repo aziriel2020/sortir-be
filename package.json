@@ -1,13 +1,14 @@
 {
   "name": "sortir-be-v18-vercel",
   "private": true,
-  "version": "18.0.0-recovered",
+  "version": "18.1.0-recovered",
   "type": "module",
   "scripts": {
     "start": "node server.mjs",
     "qa": "python qa/run_qa.py",
     "build": "node scripts/build-vercel.mjs",
     "vercel:preview": "vercel deploy",
-    "vercel:prod": "vercel deploy --prod"
+    "vercel:prod": "vercel deploy --prod",
+    "qa:filter-scroll": "python qa/filter-scroll-regression.py"
   }
 }
